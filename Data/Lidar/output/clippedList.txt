@@ -1,0 +1,4 @@
+D:/ForestMappingCIG/Data/Lidar/output/clipLidar_60634.las
+D:/ForestMappingCIG/Data/Lidar/output/clipLidar_65759.las
+D:/ForestMappingCIG/Data/Lidar/output/clipLidar_74773.las
+D:/ForestMappingCIG/Data/Lidar/output/clipLidar_76297.las

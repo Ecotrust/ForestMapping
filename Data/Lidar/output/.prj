@@ -1,0 +1,13 @@
+Projection    LAMBERT
+Spheroid      GRS80
+Units         3.280839895013123
+Zunits        NO
+Xshift        0.0
+Yshift        0.0
+Parameters    
+  43  0  0.0 /* 1st standard parallel
+  45 30  0.0 /* 2nd standard parallel
+-120 30  0.0 /* central meridian
+  41 45  0.0 /* latitude of projection's origin
+400000.0 /* false easting (meters)
+0.0 /* false northing (meters)
