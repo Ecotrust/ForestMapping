@@ -1,0 +1,33 @@
+name: forest_mapping 
+
+channels:
+  - conda-forge 
+  - r
+
+dependencies:
+  - dask
+  - geopandas
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - pdal
+  - python-pdal
+  - python
+  - rasterio
+  - rasterstats
+  - scikit-image
+  - scikit-learn
+  - seaborn
+  - shapely
+  - astropy
+  - r-proj4
+  - r-rgdal
+  - r-sp
+  - r-raster
+  - r-rgeos
+  - r-dismo
+  - r-maptools
+  - r-ggmap
+
+prefix: /storage/anaconda3/forest_mapping
