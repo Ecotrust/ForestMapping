@@ -2,11 +2,16 @@ name: forest_mapping
 
 channels:
   - conda-forge 
-  - r
+  - anaconda
+  - defaults
 
 dependencies:
+  - anaconda
   - dask
   - geopandas
+  - graphviz
+  - cyclus::java-jdk
+  - h2oai::h2o
   - jupyterlab
   - matplotlib
   - numpy
@@ -21,13 +26,5 @@ dependencies:
   - seaborn
   - shapely
   - astropy
-  - r-proj4
-  - r-rgdal
-  - r-sp
-  - r-raster
-  - r-rgeos
-  - r-dismo
-  - r-maptools
-  - r-ggmap
 
 prefix: /storage/anaconda3/forest_mapping
