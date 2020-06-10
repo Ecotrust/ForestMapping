@@ -1,0 +1,44 @@
+FVS_ALPHA,SPCD,SYMBOL,COMMON_NAME,SCIENTIFIC_NAME,W_SPGRPCD,SPP_GRP_NAME,JENKINS_SPGRPCD,CLASS
+AF,19.0,ABLA,subalpine fir,Abies lasiocarpa ,12.0,TRUE-FIR,3.0,SOFTWOOD
+AS,746.0,POTR5,quaking aspen,Populus tremuloides ,44.0,COTTONWOOD-AND-ASPEN,6.0,HARDWOOD
+BM,312.0,ACMA3,bigleaf maple,Acer macrophyllum ,47.0,OTHER-WESTERN-HARDWOODS,7.0,HARDWOOD
+BO,818.0,QUKE,California black oak,Quercus kelloggii ,46.0,OAK,9.0,HARDWOOD
+CH,768.0,PREM,bitter cherry,Prunus emarginata  ,47.0,OTHER-WESTERN-HARDWOODS,8.0,HARDWOOD
+CW,747.0,POBAT,black cottonwood,Populus balsamifera ssp. trichocarpa,44.0,COTTONWOOD-AND-ASPEN,6.0,HARDWOOD
+DF,202.0,PSME,Douglas-fir,Pseudotsuga menziesii ,10.0,DOUGLAS-FIR,2.0,SOFTWOOD
+DG,492.0,CONU4,Pacific dogwood,Cornus nuttallii  ,47.0,OTHER-WESTERN-HARDWOODS,8.0,HARDWOOD
+ES,93.0,PIEN,Engelmann spruce,Picea engelmannii,18.0,ENGELMANN-AND-OTHER-SPRUCES,5.0,SOFTWOOD
+GC,431.0,CHCHC4,giant chinquapin,Chrysolepis chrysophylla var. chrysophylla,47.0,OTHER-WESTERN-HARDWOODS,8.0,HARDWOOD
+GF,17.0,ABGR,grand fir,Abies grandis ,12.0,TRUE-FIR,3.0,SOFTWOOD
+IC,81.0,CADE27,incense cedar,Calocedrus decurrens  ,20.0,INCENSE-CEDAR,1.0,SOFTWOOD
+JP,116.0,PIJE,Jeffrey pine,Pinus jeffreyi ,11.0,PONDEROSA-AND-JEFFREY-PINES,4.0,SOFTWOOD
+KP,103.0,PIAT,knobcone pine,Pinus attenuata ,24.0,OTHER-WESTERN-SOFTWOODS,4.0,SOFTWOOD
+LO,801.0,QUAG,California live oak,Quercus agrifolia ,46.0,OAK,9.0,HARDWOOD
+LP,108.0,PICO,lodgepole pine,Pinus contorta  ,21.0,LODGEPOLE-PINE,4.0,SOFTWOOD
+MA,361.0,ARME,Pacific madrone,Arbutus menziesii ,47.0,OTHER-WESTERN-HARDWOODS,8.0,HARDWOOD
+MH,264.0,TSME,mountain hemlock,Tsuga mertensiana ,24.0,OTHER-WESTERN-SOFTWOODS,3.0,SOFTWOOD
+NF,22.0,ABPR,noble fir,Abies procera,12.0,TRUE-FIR,3.0,SOFTWOOD
+OH,998.0,2TD,"tree, deciduous species",Other Hardwood,47.0,OTHER-WESTERN-HARDWOODS,8.0,HARDWOOD
+OS,,,,,,OTHER-WESTERN-SOFTWOODS,,SOFTWOOD
+OT,999.0,2TREE,Unknown species,Other,47.0,OTHER-WESTERN-HARDWOODS,8.0,HARDWOOD
+PC,41.0,CHLA,Port Orford cedar,Chamaecyparis lawsoniana ,24.0,OTHER-WESTERN-SOFTWOODS,1.0,SOFTWOOD
+PL,760.0,PRUNU,plum/cherry species,Prunus ,47.0,OTHER-WESTERN-HARDWOODS,8.0,HARDWOOD
+PP,122.0,PIPO,ponderosa pine,Pinus ponderosa ,11.0,PONDEROSA-AND-JEFFREY-PINES,4.0,SOFTWOOD
+PY,231.0,TABR2,Pacific yew,Taxus brevifolia ,24.0,OTHER-WESTERN-SOFTWOODS,3.0,SOFTWOOD
+RA,351.0,ALRU2,red alder,Alnus rubra ,45.0,RED-ALDER,6.0,HARDWOOD
+RC,242.0,THPL,western red cedar,Thuja plicata ,22.0,WESTERN-REDCEDAR,1.0,SOFTWOOD
+RF,20.0,ABMA,California red fir,Abies magnifica,12.0,TRUE-FIR,3.0,SOFTWOOD
+SF,11.0,ABAM,Pacific silver fir,Abies amabilis ,12.0,TRUE-FIR,3.0,SOFTWOOD
+SP,117.0,PILA,sugar pine,Pinus lambertiana ,14.0,SUGAR-PINE,4.0,SOFTWOOD
+SS,98.0,PISI,Sitka spruce,Picea sitchensis ,17.0,SITKA-SPRUCE,5.0,SOFTWOOD
+TO,631.0,LIDE3,tanoak,Lithocarpus densiflorus  ,47.0,OTHER-WESTERN-HARDWOODS,8.0,HARDWOOD
+WA,352.0,ALRH2,white alder,Alnus rhombifolia ,47.0,OTHER-WESTERN-HARDWOODS,6.0,HARDWOOD
+WB,101.0,PIAL,whitebark pine,Pinus albicaulis ,24.0,OTHER-WESTERN-SOFTWOODS,4.0,SOFTWOOD
+WF,15.0,ABCO,white fir,Abies concolor ,12.0,TRUE-FIR,3.0,SOFTWOOD
+WH,263.0,TSHE,western hemlock,Tsuga heterophylla ,13.0,WESTERN-HEMLOCK,3.0,SOFTWOOD
+WI,920.0,SALIX,willow species,Salix ,47.0,OTHER-WESTERN-HARDWOODS,6.0,HARDWOOD
+WJ,64.0,JUOC,western juniper,Juniperus occidentalis ,24.0,OTHER-WESTERN-SOFTWOODS,1.0,SOFTWOOD
+WL,73.0,LAOC,western larch,Larix occidentalis ,19.0,WESTERN-LARCH,1.0,SOFTWOOD
+WO,815.0,QUGA4,Oregon white oak,Quercus garryana  ,46.0,OAK,9.0,HARDWOOD
+WP,119.0,PIMO3,western white pine,Pinus monticola  ,15.0,WESTERN-WHITE-PINE,4.0,SOFTWOOD
+YC,42.0,CANO9,Alaska cedar,Callitropsis nootkatensis,24.0,OTHER-WESTERN-SOFTWOODS,1.0,SOFTWOOD
