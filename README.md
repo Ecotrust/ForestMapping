@@ -1,5 +1,5 @@
-ForestMapping
-==============================
+Forest Mapping
+==============
 
 Predicting Pacific Northwest forest types from remotely-sensed data.
 
@@ -41,5 +41,16 @@ Project Organization
 
 
 --------
+This effort has been supported by two Conservation Innovation Grants from the
+USDA Oregon Natural Resources Conservation Service:  
+"Technology Transfer for Rapid Family Forest Assessment and Stewardship
+Planning" - FY 2017 Oregon Conservation Innovation Grant, Award # 69-0436-17-036.  
+"Modern Land Mapping Toolkit to Streamline Forest Stewardship Planning" -  
+FY 2019 Oregon Conservation Innovation Grant, Award # NR190436XXXXG012
+
+This effort has also been supported by a grant of cloud storage and computing
+services made available to Ecotrust under the Microsoft AI for Earth Program in
+a project entitled "Mining Public Datasets to Automate Forest Stand
+Delineation and Labeling."
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
