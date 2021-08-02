@@ -23,6 +23,7 @@ dependencies:
   - rasterstats
   - scikit-image
   - scikit-learn
+  - scikit-optimize
   - seaborn
   - shapely
   - astropy
