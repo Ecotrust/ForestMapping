@@ -1,12 +1,25 @@
+import io
+import numpy as np
+import geopandas as gpd
+import os
+from rasterio import transform
 import requests
-from io import BytesIO
+
+import rasterio
 from imageio import imread
+
+from zipfile import ZipFile
+from rasterio.io import MemoryFile
+from io import BytesIO
+
+from .landtrendr import get_landtrendr_download_url, read_gee_url
 
 
 def dem_from_tnm(bbox, width, height, inSR=3857, **kwargs):
     """
     Retrieves a Digital Elevation Model (DEM) image from The National Map (TNM)
     web service.
+
     Parameters
     ----------
     bbox : list-like
@@ -45,6 +58,12 @@ def dem_from_tnm(bbox, width, height, inSR=3857, **kwargs):
         params.update({key: value})
 
     r = requests.get(BASE_URL, params=params)
-    dem = imread(BytesIO(r.content))
+    dem = imread(io.BytesIO(r.content))
 
     return dem
+
+
+def get_landtrendr_from_gee(bbox, year, epsg):
+    url = get_landtrendr_download_url(bbox, year, epsg)
+    ras, profile = read_gee_url(url)
+    return ras, profile
