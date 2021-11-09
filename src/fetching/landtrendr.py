@@ -1,3 +1,6 @@
+"""Functions to get data from Google Earth Engine involving the LandTrendr
+time series segmentation algorithm."""
+
 import requests
 from zipfile import ZipFile
 from rasterio.io import MemoryFile

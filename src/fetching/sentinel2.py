@@ -1,3 +1,5 @@
+"""Functions to get data from Google Earth Engine from SENTINEL-2 satellites."""
+
 import ee
 from .landtrendr import read_gee_url
 
