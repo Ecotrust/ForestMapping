@@ -1,31 +1,28 @@
-name: forest_mapping 
+name: forest_mapping
 
 channels:
-  - conda-forge 
-  - anaconda
+  - conda-forge
   - defaults
 
 dependencies:
-  - anaconda
   - dask
+  - earthengine-api
   - geopandas
   - graphviz
-  - cyclus::java-jdk
-  - h2oai::h2o
   - jupyterlab
   - matplotlib
-  - numpy
   - pandas
   - pdal
+  - pip
   - python-pdal
-  - python
   - rasterio
   - rasterstats
   - scikit-image
-  - scikit-learn
+  - scikit-learn>=1.0
   - scikit-optimize
   - seaborn
-  - shapely
-  - astropy
+  - tqdm
+  - pip:
+    - geetools
 
 prefix: /storage/anaconda3/forest_mapping
