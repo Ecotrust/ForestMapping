@@ -6,6 +6,7 @@ channels:
 
 dependencies:
   - dask
+  - earthengine-api
   - geopandas
   - graphviz
   - jupyterlab
@@ -20,6 +21,7 @@ dependencies:
   - scikit-learn>=1.0
   - scikit-optimize
   - seaborn
+  - tqdm
   - pip:
     - geetools
 
