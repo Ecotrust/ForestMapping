@@ -27,8 +27,10 @@ def load_sentinel(to_load):
         raise TypeError
 
     COLS = ['S2_B_LEAFOFF', 'S2_G_LEAFOFF', 'S2_R_LEAFOFF',
+            'S2_RE1_LEAFOFF', 'S2_RE2_LEAFOFF', 'S2_RE3_LEAFOFF', 'S2_RE4_LEAFOFF',
             'S2_NIR_LEAFOFF', 'S2_SWIR1_LEAFOFF', 'S2_SWIR2_LEAFOFF',
             'S2_B_LEAFON', 'S2_G_LEAFON', 'S2_R_LEAFON',
+            'S2_RE1_LEAFON', 'S2_RE2_LEAFON', 'S2_RE3_LEAFON', 'S2_RE4_LEAFON',
             'S2_NIR_LEAFON', 'S2_SWIR1_LEAFON', 'S2_SWIR2_LEAFON']
     df = pd.DataFrame(s2.reshape([12,-1]).T, columns=COLS, dtype='Int64')
     df = df.replace(0, np.nan) # nodata represented as zeros
@@ -55,9 +57,13 @@ def load_sentinel(to_load):
         WETNESS = f'S2_WETNESS_{season}'
         df[WETNESS] = 0.1511*df[B] + 0.1973*df[G] + 0.3283*df[R] + 0.3407*df[NIR] + -0.7117*df[SWIR1] + -0.4559*df[SWIR2]
 
-    df['S2_dR'] = df['S2_R_LEAFON'] - df['S2_R_LEAFOFF'].astype(int)
-    df['S2_dG'] = df['S2_G_LEAFON'] - df['S2_G_LEAFOFF'].astype(int)
     df['S2_dB'] = df['S2_B_LEAFON'] - df['S2_B_LEAFOFF'].astype(int)
+    df['S2_dG'] = df['S2_G_LEAFON'] - df['S2_G_LEAFOFF'].astype(int)
+    df['S2_dR'] = df['S2_R_LEAFON'] - df['S2_R_LEAFOFF'].astype(int)
+    df['S2_dRE1'] = df['S2_RE1_LEAFON'] - df['S2_RE1_LEAFOFF'].astype(int)
+    df['S2_dRE2'] = df['S2_RE2_LEAFON'] - df['S2_RE2_LEAFOFF'].astype(int)
+    df['S2_dRE3'] = df['S2_RE3_LEAFON'] - df['S2_RE3_LEAFOFF'].astype(int)
+    df['S2_dRE4'] = df['S2_RE4_LEAFON'] - df['S2_RE4_LEAFOFF'].astype(int)
     df['S2_dNIR'] = df['S2_NIR_LEAFON'] - df['S2_NIR_LEAFOFF'].astype(int)
     df['S2_dSWIR1'] = df['S2_SWIR1_LEAFON'] - df['S2_SWIR1_LEAFOFF'].astype(int)
     df['S2_dSWIR2'] = df['S2_SWIR2_LEAFON'] - df['S2_SWIR2_LEAFOFF'].astype(int)
@@ -129,20 +135,20 @@ def load_dem(to_load, meta=None):
     else:
         raise TypeError
 
-    df = pd.DataFrame(columns=['ELEVATION', 'LAT', 'LON'])
+    df = pd.DataFrame(columns=['elevation', 'lat', 'lon'])
 
-    df['ELEVATION'] = dem.ravel()
-    df['ELEVATION'] = df['ELEVATION'].astype('Int64')
+    df['elevation'] = dem.ravel()
+    df['elevation'] = df['elevation'].astype('Int64')
 
     # fetch lat and lon for each pixel in a raster
     rows, cols = np.indices((meta['height'], meta['width']))
     xs, ys = transform.xy(meta['transform'], cols.ravel(), rows.ravel())
     lons, lats = warp.transform(meta['crs'], {'init':'EPSG:4326'}, xs, ys)
-    df['LAT'] = lats
-    df['LON'] = lons
+    df['lat'] = lats
+    df['lon'] = lons
 
     # nodata represented as -32768
-    df.loc[df.ELEVATION == -32768] = np.nan
+    df.loc[df.elevation == -32768] = np.nan
 
     return df
 
