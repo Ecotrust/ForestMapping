@@ -179,4 +179,23 @@ def load_features(path_to_rasters, cell_id):
 
     df = pd.concat([s2, lt, dem], axis=1)
 
-    return df
+    COL_ORDER = [
+    'S2_R_LEAFOFF', 'S2_G_LEAFOFF', 'S2_B_LEAFOFF', 'S2_NIR_LEAFOFF',
+    'S2_SWIR1_LEAFOFF', 'S2_SWIR2_LEAFOFF', 'S2_RE1_LEAFOFF', 'S2_RE2_LEAFOFF',
+    'S2_RE3_LEAFOFF', 'S2_RE4_LEAFOFF',
+    'S2_R_LEAFON', 'S2_G_LEAFON', 'S2_B_LEAFON', 'S2_NIR_LEAFON',
+    'S2_SWIR1_LEAFON', 'S2_SWIR2_LEAFON', 'S2_RE1_LEAFON', 'S2_RE2_LEAFON',
+    'S2_RE3_LEAFON', 'S2_RE4_LEAFON',
+    'S2_NDVI_LEAFON', 'S2_SAVI_LEAFON', 'S2_BRIGHTNESS_LEAFON',
+    'S2_GREENNESS_LEAFON', 'S2_WETNESS_LEAFON',
+    'S2_NDVI_LEAFOFF', 'S2_SAVI_LEAFOFF', 'S2_BRIGHTNESS_LEAFOFF',
+    'S2_GREENNESS_LEAFOFF', 'S2_WETNESS_LEAFOFF',
+    'S2_dR', 'S2_dG', 'S2_dB', 'S2_dNIR', 'S2_dSWIR1', 'S2_dSWIR2', 'S2_dRE1',
+    'S2_dRE2', 'S2_dNDVI', 'S2_dSAVI', 'S2_dBRIGHTNESS', 'S2_dGREENNESS',
+    'S2_dWETNESS', 'S2_dRE3', 'S2_dRE4',
+    'LT_DUR_NBR', 'LT_DUR_SWIR1', 'LT_MAG_NBR', 'LT_MAG_SWIR1', 'LT_RATE_NBR',
+    'LT_RATE_SWIR1', 'LT_YSD_NBR', 'LT_YSD_SWIR1',
+    'elevation', 'lat', 'lon'
+    ]
+
+    return df[COL_ORDER]
