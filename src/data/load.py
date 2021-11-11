@@ -32,7 +32,7 @@ def load_sentinel(to_load):
             'S2_B_LEAFON', 'S2_G_LEAFON', 'S2_R_LEAFON',
             'S2_RE1_LEAFON', 'S2_RE2_LEAFON', 'S2_RE3_LEAFON', 'S2_RE4_LEAFON',
             'S2_NIR_LEAFON', 'S2_SWIR1_LEAFON', 'S2_SWIR2_LEAFON']
-    df = pd.DataFrame(s2.reshape([12,-1]).T, columns=COLS, dtype='Int64')
+    df = pd.DataFrame(s2.reshape((20, -1)).T, columns=COLS, dtype='Int64')
     df = df.replace(0, np.nan) # nodata represented as zeros
 
     for season in ('LEAFOFF', 'LEAFON'):
