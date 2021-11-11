@@ -322,22 +322,28 @@ def get_sentinel2_composites(aoi, year):
     leafoff_coll, leafon_coll = get_sentinel2_collections(aoi, year)
 
     # get a median composite image
-    bands = ['B','G','R','NIR','SWIR1', 'SWIR2']
-    leafoff_img = get_medoid(leafoff_coll, bands)
-    leafon_img = get_medoid(leafon_coll, bands)
-    # leafoff_img = composite.medoid(leafoff_coll, bands=bands, discard_zeros=True)
-    # leafon_img = composite.medoid(leafon_coll, bands=bands, discard_zeros=True)
+    MEDOID_BANDS = ['B','G','R','NIR','SWIR1', 'SWIR2']
+    leafoff_img = get_medoid(leafoff_coll, MEDOID_BANDS)
+    leafon_img = get_medoid(leafon_coll, MEDOID_BANDS)
 
     img = ee.Image.cat(
         leafoff_img.select(['B'], ['B_LEAFOFF']),
         leafoff_img.select(['G'], ['G_LEAFOFF']),
         leafoff_img.select(['R'], ['R_LEAFOFF']),
+        leafoff_img.select(['RE1']), ['RE1_LEAFOFF']),
+        leafoff_img.select(['RE2']), ['RE2_LEAFOFF']),
+        leafoff_img.select(['RE3']), ['RE3_LEAFOFF']),
+        leafoff_img.select(['RE4']), ['RE4_LEAFOFF']),
         leafoff_img.select(['NIR'], ['NIR_LEAFOFF']),
         leafoff_img.select(['SWIR1'], ['SWIR1_LEAFOFF']),
         leafoff_img.select(['SWIR2'], ['SWIR2_LEAFOFF']),
         leafon_img.select(['B'], ['B_LEAFON']),
         leafon_img.select(['G'], ['G_LEAFON']),
         leafon_img.select(['R'], ['R_LEAFON']),
+        leafon_img.select(['RE1']), ['RE1_LEAFON']),
+        leafon_img.select(['RE2']), ['RE2_LEAFON']),
+        leafon_img.select(['RE3']), ['RE3_LEAFON']),
+        leafon_img.select(['RE4']), ['RE4_LEAFON']),
         leafon_img.select(['NIR'], ['NIR_LEAFON']),
         leafon_img.select(['SWIR1'], ['SWIR1_LEAFON']),
         leafon_img.select(['SWIR2'], ['SWIR2_LEAFON']),

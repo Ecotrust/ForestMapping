@@ -208,23 +208,31 @@ def landtrendr_from_gee(bbox, year, epsg, scale=30):
 
 
 def s2_from_gee(bbox, year, epsg, scale=10):
-    """Fetches an 12-band raster generated from Google Earth Engine containing
+    """Fetches an 20-band raster generated from Google Earth Engine containing
     a leaf-off and leaf-on composite image for the user-specified area of
     interest and year.
 
-    The 12-bands in the returned raster are:
+    The bands in the returned raster are:
         1. Blue (LEAFOFF)
         2. Green (LEAFOFF)
         3. Red (LEAFOFF)
-        4. NIR (LEAFOFF)
-        5. SWIR1 (LEAFOFF)
-        6. SWIR2 (LEAFOFF)
-        7. Blue (LEAFON)
-        8. Green (LEAFON)
-        9. Red (LEAFON)
-        10. NIR (LEAFON)
-        11. SWIR1 (LEAFON)
-        12. SWIR2 (LEAFON)
+        4. RE1 (LEAFOFF)
+        5. RE2 (LEAFOFF)
+        6. RE3 (LEAFOFF)
+        7. RE4 (LEAFOFF)
+        8. NIR (LEAFOFF)
+        9. SWIR1 (LEAFOFF)
+        10. SWIR2 (LEAFOFF)
+        11. Blue (LEAFON)
+        12. Green (LEAFON)
+        13. Red (LEAFON)
+        14. RE1 (LEAFON)
+        15. RE2 (LEAFON)
+        16. RE3 (LEAFON)
+        17. RE4 (LEAFON)
+        18. NIR (LEAFON)
+        19. SWIR1 (LEAFON)
+        20. SWIR2 (LEAFON)
 
     Parameters
     ----------
