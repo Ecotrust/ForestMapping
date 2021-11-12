@@ -35,7 +35,8 @@ def load_sentinel(to_load):
     df = pd.DataFrame(s2.reshape((20, -1)).T, columns=COLS, dtype='Int64')
     df = df.replace(0, np.nan) # nodata represented as zeros
 
-    for season in ('LEAFOFF', 'LEAFON'):
+    # calculate and add derived metrics in each season
+    for season in ['LEAFOFF', 'LEAFON']:
         R, G, B = f'S2_R_{season}', f'S2_G_{season}', f'S2_B_{season}'
         NIR, SWIR1, SWIR2 =  f'S2_NIR_{season}', f'S2_SWIR1_{season}', f'S2_SWIR2_{season}'
 
@@ -57,21 +58,11 @@ def load_sentinel(to_load):
         WETNESS = f'S2_WETNESS_{season}'
         df[WETNESS] = 0.1511*df[B] + 0.1973*df[G] + 0.3283*df[R] + 0.3407*df[NIR] + -0.7117*df[SWIR1] + -0.4559*df[SWIR2]
 
-    df['S2_dB'] = df['S2_B_LEAFON'] - df['S2_B_LEAFOFF'].astype(int)
-    df['S2_dG'] = df['S2_G_LEAFON'] - df['S2_G_LEAFOFF'].astype(int)
-    df['S2_dR'] = df['S2_R_LEAFON'] - df['S2_R_LEAFOFF'].astype(int)
-    df['S2_dRE1'] = df['S2_RE1_LEAFON'] - df['S2_RE1_LEAFOFF'].astype(int)
-    df['S2_dRE2'] = df['S2_RE2_LEAFON'] - df['S2_RE2_LEAFOFF'].astype(int)
-    df['S2_dRE3'] = df['S2_RE3_LEAFON'] - df['S2_RE3_LEAFOFF'].astype(int)
-    df['S2_dRE4'] = df['S2_RE4_LEAFON'] - df['S2_RE4_LEAFOFF'].astype(int)
-    df['S2_dNIR'] = df['S2_NIR_LEAFON'] - df['S2_NIR_LEAFOFF'].astype(int)
-    df['S2_dSWIR1'] = df['S2_SWIR1_LEAFON'] - df['S2_SWIR1_LEAFOFF'].astype(int)
-    df['S2_dSWIR2'] = df['S2_SWIR2_LEAFON'] - df['S2_SWIR2_LEAFOFF'].astype(int)
-    df['S2_dNDVI'] = df['S2_NDVI_LEAFON'] - df['S2_NDVI_LEAFOFF'].astype(int)
-    df['S2_dSAVI'] = df['S2_SAVI_LEAFON'] - df['S2_SAVI_LEAFOFF'].astype(int)
-    df['S2_dBRIGHTNESS'] = df['S2_BRIGHTNESS_LEAFON'] - df['S2_BRIGHTNESS_LEAFOFF']
-    df['S2_dGREENNESS'] = df['S2_GREENNESS_LEAFON'] - df['S2_GREENNESS_LEAFOFF']
-    df['S2_dWETNESS'] = df['S2_WETNESS_LEAFON'] - df['S2_WETNESS_LEAFOFF']
+    # calculate and add metrics for change in spectral and derived values from leafon to leafoff
+    for col in ['B', 'G', 'R', 'RE1', 'RE2', 'RE3', 'RE4', 'NIR',
+                'SWIR1', 'SWIR2', 'NDVI', 'SAVI', 'BRIGHTNESS', 'GREENNESS']:
+        df[f'S2_d{col}'] = (df[f'S2_{col}_LEAFON'] -
+                            df[f'S2_{col}_LEAFOFF']).astype('Int64')
 
     return df
 
