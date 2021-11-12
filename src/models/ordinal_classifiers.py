@@ -118,7 +118,7 @@ class RandomForestOrdinalClassifier(BaseEstimator, ClassifierMixin):
 
 
 class HistGradientBoostingOrdinalClassifier(BaseEstimator, ClassifierMixin):
-    def __init__(self,*, loss='auto', *, learning_rate=0.1, max_iter=100,
+    def __init__(self, loss='auto', *, learning_rate=0.1, max_iter=100,
                  max_leaf_nodes=31, max_depth=None, min_samples_leaf=20,
                  l2_regularization=0.0, max_bins=255, categorical_features=None,
                  monotonic_cst=None, warm_start=False, early_stopping='auto',
