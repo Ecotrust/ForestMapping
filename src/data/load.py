@@ -60,7 +60,8 @@ def load_sentinel(to_load):
 
     # calculate and add metrics for change in spectral and derived values from leafon to leafoff
     for col in ['B', 'G', 'R', 'RE1', 'RE2', 'RE3', 'RE4', 'NIR',
-                'SWIR1', 'SWIR2', 'NDVI', 'SAVI', 'BRIGHTNESS', 'GREENNESS']:
+                'SWIR1', 'SWIR2', 'NDVI', 'SAVI', 'BRIGHTNESS', 'GREENNESS',
+                'WETNESS']:
         df[f'S2_d{col}'] = (df[f'S2_{col}_LEAFON'] -
                             df[f'S2_{col}_LEAFOFF']).astype('Int64')
 
