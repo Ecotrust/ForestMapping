@@ -588,3 +588,68 @@ def get_sentinel2_download_url(bbox, year, epsg, scale=10):
     url = img.clip(aoi).getDownloadURL(url_params)
 
     return url
+
+def download_from_url(
+    url, 
+    filename=None, 
+    path=".", 
+    preview=False, 
+    retry=True, 
+    overwrite=False,
+    progressbar=None
+    ):
+    """Given a download URL, downloads the zip file and writes it to disk.
+    Parameters
+    ----------
+    url : str
+        URL from which the raster will be downloaded.
+    save_as : str
+        The raster will be saved as this filename. If None, the filename will be the zipped file name.
+    path : str
+        Path to which the raster will be saved.
+    """
+    import requests.adapters
+
+    out_path = os.path.join(path, filename)
+
+    if os.path.exists(out_path) and overwrite is False:
+        msg = f"File already exists: {filename}. Set overwrite to True to download it again."
+        print_message(msg, progressbar)
+        return
+
+    session = requests.Session()
+    adapter = requests.adapters.HTTPAdapter(max_retries=3)
+    session.mount("http://", adapter)
+    response = session.get(url)
+
+    with requests.get(url) as response:
+        if preview:
+            imgfile = "thumbnail.png"
+            if filename:
+                imgfile = filename
+            with open(os.path.join(path, imgfile), "wb") as f:
+                f.write(response.content)
+
+        else:
+            try:
+                zip = ZipFile(BytesIO(response.content))
+                imgfile = zip.infolist()[0]
+    
+                if filename:
+                    imgfile.filename = filename
+                zip.extract(imgfile, path=path)
+
+            except Exception as e:  # downloaded zip is corrupt/failed
+                msg = f"Download failed: {response.content}"
+                print_message(msg, progressbar)
+                pass
+
+    # Verify that the file was downloaded.
+    if not os.path.exists(out_path):
+        print_message(f"Download failed", progressbar)
+        
+        if retry:
+            print_message("Retring to download from {url} ...", progressbar)
+            return download_from_url(url, filename, path, retry=False)
+
+    print_message(f"GEE image saved as {out_path}", progressbar)
