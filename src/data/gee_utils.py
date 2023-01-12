@@ -2,7 +2,7 @@ import requests
 from zipfile import ZipFile
 from rasterio.io import MemoryFile
 from io import BytesIO
-
+import os
 import ee
 from geetools import composite
 
@@ -224,7 +224,7 @@ class GEEImageLoader:
         self.set_property("system:time_end", date_end)
         self.set_property("description", description)
 
-        print_message("Image metadata updated successfully.", self.pbar)
+        #print_message("Image metadata updated successfully.", self.pbar)
 
 
 def harmonize_to_oli(image):
@@ -612,10 +612,10 @@ def download_from_url(
 
     out_path = os.path.join(path, filename)
 
-    if os.path.exists(out_path) and overwrite is False:
-        msg = f"File already exists: {filename}. Set overwrite to True to download it again."
-        print_message(msg, progressbar)
-        return
+    # if os.path.exists(out_path) and overwrite is False:
+    #     msg = f"File already exists: {filename}. Set overwrite to True to download it again."
+    #     print_message(msg, progressbar)
+    #     return
 
     session = requests.Session()
     adapter = requests.adapters.HTTPAdapter(max_retries=3)
@@ -641,15 +641,15 @@ def download_from_url(
 
             except Exception as e:  # downloaded zip is corrupt/failed
                 msg = f"Download failed: {response.content}"
-                print_message(msg, progressbar)
+                #print_message(msg, progressbar)
                 pass
 
     # Verify that the file was downloaded.
     if not os.path.exists(out_path):
-        print_message(f"Download failed", progressbar)
+        #print_message(f"Download failed", progressbar)
         
         if retry:
-            print_message("Retring to download from {url} ...", progressbar)
+            #print_message("Retring to download from {url} ...", progressbar)
             return download_from_url(url, filename, path, retry=False)
 
-    print_message(f"GEE image saved as {out_path}", progressbar)
+    #print_message(f"GEE image saved as {out_path}")
