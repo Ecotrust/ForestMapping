@@ -37,7 +37,7 @@ def harmonize_to_oli(image):
 def mask_stuff(image):
     """Masks pixels likely to be cloud, shadow, water, or snow in a LANDSAT
     image based on the `pixel_qa` band."""
-    qa = image.select('pixel_qa')
+    qa = image.select('QA_PIXEL')
 
     shadow = qa.bitwiseAnd(8).eq(0)
     snow = qa.bitwiseAnd(16).eq(0)
@@ -57,13 +57,13 @@ def get_landsat_collection(aoi, start_year, end_year, band='SWIR1'):
 
     for i, year in enumerate(years):
         if year >= 1984 and year <= 2011:
-            sensor, bands = 'LT05', ['B1', 'B2', 'B3', 'B4', 'B5', 'B7']
+            sensor, bands = 'LT05', ['SR_B1', 'SR_B2', 'SR_B3', 'SR_B4', 'SR_B5', 'SR_B7']
         elif year == 2012:
             continue
         elif year >= 2013:
-            sensor, bands = 'LC08', ['B2', 'B3', 'B4', 'B5', 'B6', 'B7']
+            sensor, bands = 'LC08', ['SR_B2', 'SR_B3', 'SR_B4', 'SR_B5', 'SR_B6', 'SR_B7']
 
-        landsat = ee.ImageCollection(f'LANDSAT/{sensor}/C01/T1_SR')
+        landsat = ee.ImageCollection(f'LANDSAT/{sensor}/C02/T1_L2')
 
         coll = landsat.filterBounds(aoi)\
               .filterDate(f'{year}-06-15', f'{year}-09-15')
@@ -74,13 +74,13 @@ def get_landsat_collection(aoi, start_year, end_year, band='SWIR1'):
         if sensor != 'LC08':
             img = harmonize_to_oli(medoid)
         else:
-            img = medoid
+            img = medoid.toShort()
 
         if band == 'NBR':
             nbr = img.normalizedDifference(['NIR', 'SWIR2'])\
                      .rename('NBR').multiply(1000)
             img = img.addBands(nbr)
-
+        
         images.append(img.select([band])\
                       .set('system:time_start',
                            coll.first().get('system:time_start')))
@@ -361,6 +361,34 @@ def get_sentinel2_download_url(bbox, year, epsg, scale=10):
                                 geodesic=False)
 
     img = get_sentinel2_composites(aoi, year)
+    url_params = dict(filePerBand=False,
+                      scale=scale,
+                      crs=f'EPSG:{epsg}',
+                      formatOptions={'cloudOptimized':True})
+    url = img.clip(aoi).getDownloadURL(url_params)
+
+    return url
+
+
+def get_dynamic_world(aoi, year):
+    """Returns the most commonly-predicted land cover type for a given year
+    from the Dynamic World dataset"""
+    
+    DW = ee.ImageCollection("GOOGLE/DYNAMICWORLD/V1")
+    coll = DW.filterBounds(aoi).filterDate(f"{year}-01-01", f"{year}-12-31")
+    img = (coll.select(["label"]).reduce(ee.Reducer.mode()))
+    return img
+
+
+def get_dynamic_world_download_url(bbox, year, epsg, scale=10):
+    """Returns URL from which Dynamic World image can be downloaded."""
+    xmin, ymin, xmax, ymax = bbox
+    aoi = ee.Geometry.Rectangle((xmin, ymin, xmax, ymax),
+                                proj=f'EPSG:{epsg}',
+                                evenOdd=True,
+                                geodesic=False)
+
+    img = get_dynamic_world(aoi, year)
     url_params = dict(filePerBand=False,
                       scale=scale,
                       crs=f'EPSG:{epsg}',

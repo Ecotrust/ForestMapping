@@ -3,9 +3,11 @@ import numpy as np
 import pandas as pd
 import rasterio
 from rasterio import transform, warp
+from rasterio.plot import reshape_as_image, reshape_as_raster
+from skimage.transform import resize
 
 
-def load_sentinel(to_load):
+def load_sentinel(to_load, height=None, width=None):
     """Loads and transforms SENTINEL-2 image into a DataFrame.
 
     Parameters
@@ -25,6 +27,11 @@ def load_sentinel(to_load):
         s2 = to_load
     else:
         raise TypeError
+
+    if height is not None and width is not None:
+        s2 = reshape_as_image(s2)
+        s2 = resize(s2, (height, width), order=0, preserve_range=True)
+        s2 = reshape_as_raster(s2)
 
     COLS = ['S2_B_LEAFOFF', 'S2_G_LEAFOFF', 'S2_R_LEAFOFF',
             'S2_RE1_LEAFOFF', 'S2_RE2_LEAFOFF', 'S2_RE3_LEAFOFF', 'S2_RE4_LEAFOFF',
@@ -67,7 +74,7 @@ def load_sentinel(to_load):
 
     return df
 
-def load_landtrendr(to_load):
+def load_landtrendr(to_load, height=None, width=None):
     """Loads and transforms a Landtrendr-derived raster into
     into a DataFrame.
 
@@ -89,6 +96,11 @@ def load_landtrendr(to_load):
     else:
         raise TypeError
 
+    if height is not None and width is not None:
+        lt = reshape_as_image(lt)
+        lt = resize(lt, (height, width), order=0, preserve_range=True)
+        lt = reshape_as_raster(lt)
+
     COLS = [
         'LT_YSD_SWIR1', 'LT_MAG_SWIR1', 'LT_DUR_SWIR1', 'LT_RATE_SWIR1',
         'LT_YSD_NBR', 'LT_MAG_NBR', 'LT_DUR_NBR', 'LT_RATE_NBR'
@@ -100,7 +112,7 @@ def load_landtrendr(to_load):
 
     return df
 
-def load_dem(to_load, meta=None):
+def load_dem(to_load, meta=None, height=None, width=None):
     """Loads and transforms a Digital Elevation Model (DEM) image
     into a DataFrame.
 
@@ -119,7 +131,7 @@ def load_dem(to_load, meta=None):
     """
     if isinstance(to_load, str):
         with rasterio.open(to_load) as src:
-            dem = src.read()
+            dem = src.read(1)
             meta = src.meta
     elif isinstance(to_load, np.ndarray) and meta is not None:
         dem = to_load
@@ -127,25 +139,101 @@ def load_dem(to_load, meta=None):
     else:
         raise TypeError
 
-    df = pd.DataFrame(columns=['elevation', 'lat', 'lon'])
+    if height is not None and width is not None and meta is not None:
+        dem = resize(dem, (height, width), order=0, preserve_range=True)
+        meta['height'] = height
+        meta['width'] = width
 
-    df['elevation'] = dem.ravel()
-    df['elevation'] = df['elevation'].astype('Int64')
+    df = pd.DataFrame(columns=['ELEVATION', 'LAT', 'LON'])
+
+    df['ELEVATION'] = dem.ravel()
+    df['ELEVATION'] = df['ELEVATION'].astype('Int64')
 
     # fetch lat and lon for each pixel in a raster
     rows, cols = np.indices((meta['height'], meta['width']))
     xs, ys = transform.xy(meta['transform'], cols.ravel(), rows.ravel())
     lons, lats = warp.transform(meta['crs'], {'init':'EPSG:4326'}, xs, ys)
-    df['lat'] = lats
-    df['lon'] = lons
+    df['LAT'] = lats
+    df['LON'] = lons
 
     # nodata represented as -32768
-    df.loc[df.elevation == -32768] = np.nan
+    df.loc[df.ELEVATION == -32768] = np.nan
 
     return df
 
+def load_nlcd(to_load, year=None, height=None, width=None):
+    """Loads and transforms a NLCD image into a DataFrame.
 
-def load_features(path_to_rasters, cell_id):
+    Parameters
+    ----------
+    to_load : str or arr
+      path to raster or an in-memory array with NLCD data
+
+    Returns
+    -------
+    df : DataFrame
+      flattened rasters
+    """
+    if isinstance(to_load, str):
+        with rasterio.open(to_load) as src:
+            nlcd = src.read(1)
+    elif isinstance(to_load, np.ndarray) and meta is not None:
+        nlcd = to_load
+
+    else:
+        raise TypeError
+
+    if height is not None and width is not None:
+        nlcd = resize(nlcd, (height, width), order=0, preserve_range=True)
+
+    df = pd.DataFrame(dtype='Int64')
+
+    if year is not None:
+        df[f'NLCD_{year}'] = nlcd.ravel()
+        df.loc[df[f'NLCD_{year}'] == 0] = np.nan
+    else:
+        df['NLCD'] = nlcd.ravel()
+        df.loc[df.NLCD == 0] = np.nan
+
+    return df
+    
+    
+def load_structure(to_load, height=None, width=None):
+    """Loads and transforms a forest structure prediction raster image into a DataFrame.
+
+    Parameters
+    ----------
+    to_load : str or arr
+      path to raster or an in-memory array with predicted forest structure data
+
+    Returns
+    -------
+    df : DataFrame
+      flattened raster
+    """
+    if isinstance(to_load, str):
+        with rasterio.open(to_load) as src:
+            img = src.read()
+    elif isinstance(to_load, np.ndarray):
+        img = to_load
+    else:
+        raise TypeError
+
+    if height is not None and width is not None:
+        img = reshape_as_image(img)
+        img = resize(img, (height, width), order=0, preserve_range=True)
+        img = reshape_as_raster(img)
+
+    COLS = ['TOTAL_COVER', 'TOPHT', 'QMD', 'SDI', 'TCUFT', 'ABOVEGROUND_BIOMASS']
+
+    df = (pd.DataFrame(img.reshape([6,-1]).T,
+                      columns=COLS, dtype='Int64')
+          .replace(0, np.nan))  # nodata represented as 0
+
+    return df
+    
+
+def load_features(path_to_rasters, cell_id, year):
     """Loads data from disk into a dataframe ready for predictive modeling.
 
     Parameters
@@ -155,14 +243,16 @@ def load_features(path_to_rasters, cell_id):
       and 'dem' imagery can be found.
     cell_id : int or str
       cell id which identifies a quarter quad.
+    year : int or str
+      year of imagery to select
 
     Returns
     -------
     df : DataFrame
       dataframe with feature data ready for predictive modeling
     """
-    s2_path = os.path.join(path_to_rasters, 'sentinel', f'{cell_id}_sentinel.tif')
-    lt_path = os.path.join(path_to_rasters, 'landtrendr', f'{cell_id}_landtrendr.tif')
+    s2_path = os.path.join(path_to_rasters, 'sentinel', f'{cell_id}_sentinel{year}.tif')
+    lt_path = os.path.join(path_to_rasters, 'landtrendr', f'{cell_id}_landtrendr{year}.tif')
     dem_path = os.path.join(path_to_rasters, 'dem', f'{cell_id}_dem.tif')
 
     s2 = load_sentinel(s2_path)
@@ -187,7 +277,7 @@ def load_features(path_to_rasters, cell_id):
     'S2_dWETNESS', 'S2_dRE3', 'S2_dRE4',
     'LT_DUR_NBR', 'LT_DUR_SWIR1', 'LT_MAG_NBR', 'LT_MAG_SWIR1', 'LT_RATE_NBR',
     'LT_RATE_SWIR1', 'LT_YSD_NBR', 'LT_YSD_SWIR1',
-    'elevation', 'lat', 'lon'
+    'ELEVATION', 'LAT', 'LON'
     ]
 
     return df[COL_ORDER]

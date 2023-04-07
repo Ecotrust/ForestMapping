@@ -12,13 +12,15 @@ dependencies:
   - imbalanced-learn
   - jupyterlab
   - matplotlib
+  - numpy >=1.18, <1.22
   - pandas
   - pdal
   - pip
   - python-pdal
   - rasterio
   - rasterstats
-  - scikit-image
+  - rio-cogeo
+  - scikit-image <=0.18.2
   - scikit-learn>=1.0
   - scikit-optimize
   - seaborn
@@ -26,5 +28,6 @@ dependencies:
   - pip:
     - geetools
     - autorank
+    - rastachimp
 
 prefix: /storage/miniconda3/forest_mapping
