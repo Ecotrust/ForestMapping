@@ -1,0 +1,1621 @@
+CV_FOLD,ECOREGION,TARGET,METRIC,SCORE,MODEL
+,Blue Mountains,LIDAR_COVER,rmse,9.621067518488502,ElasticNet
+,Blue Mountains,LIDAR_COVER,nrmse,0.28824841369663323,ElasticNet
+,Blue Mountains,LIDAR_COVER,mae,7.157173756326008,ElasticNet
+,Blue Mountains,LIDAR_COVER,mape,0.21442984137130927,ElasticNet
+,Blue Mountains,LIDAR_COVER,bias,0.9749743979430028,ElasticNet
+,Blue Mountains,LIDAR_COVER,rel_bias,-0.029210357692828245,ElasticNet
+,Blue Mountains,TOPHT,rmse,22.732341296652095,ElasticNet
+,Blue Mountains,TOPHT,nrmse,0.3786260940700097,ElasticNet
+,Blue Mountains,TOPHT,mae,16.408485574147978,ElasticNet
+,Blue Mountains,TOPHT,mape,0.27329700541926677,ElasticNet
+,Blue Mountains,TOPHT,bias,-2.6259306525993362,ElasticNet
+,Blue Mountains,TOPHT,rel_bias,0.04373706400575755,ElasticNet
+,Blue Mountains,BA,rmse,53.2215112307246,ElasticNet
+,Blue Mountains,BA,nrmse,0.797661193324941,ElasticNet
+,Blue Mountains,BA,mae,42.60687352183844,ElasticNet
+,Blue Mountains,BA,mape,0.6385735540266764,ElasticNet
+,Blue Mountains,BA,bias,-30.02763348249422,ElasticNet
+,Blue Mountains,BA,rel_bias,0.4500412972591984,ElasticNet
+,Blue Mountains,QMD,rmse,4.624980739414084,ElasticNet
+,Blue Mountains,QMD,nrmse,0.34616464497546556,ElasticNet
+,Blue Mountains,QMD,mae,3.6413613389732133,ElasticNet
+,Blue Mountains,QMD,mape,0.2725439577274297,ElasticNet
+,Blue Mountains,QMD,bias,-2.1269948575483464,ElasticNet
+,Blue Mountains,QMD,rel_bias,0.15919859156454375,ElasticNet
+,Blue Mountains,GS_TPA,rmse,63.02763583063663,ElasticNet
+,Blue Mountains,GS_TPA,nrmse,0.8250217320273616,ElasticNet
+,Blue Mountains,GS_TPA,mae,44.55156609447715,ElasticNet
+,Blue Mountains,GS_TPA,mape,0.5831729167593268,ElasticNet
+,Blue Mountains,GS_TPA,bias,-17.92908762562889,ElasticNet
+,Blue Mountains,GS_TPA,rel_bias,0.23468890640788725,ElasticNet
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,rmse,16.702784051211,ElasticNet
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,nrmse,1.153662645046582,ElasticNet
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,mae,12.846940656986797,ElasticNet
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,mape,0.8873392300142497,ElasticNet
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,bias,-7.474645836645341,ElasticNet
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,rel_bias,0.5162743923558946,ElasticNet
+,Cascades,LIDAR_COVER,rmse,15.849395524440027,ElasticNet
+,Cascades,LIDAR_COVER,nrmse,0.19882303886492672,ElasticNet
+,Cascades,LIDAR_COVER,mae,11.938002303267039,ElasticNet
+,Cascades,LIDAR_COVER,mape,0.14975649337869035,ElasticNet
+,Cascades,LIDAR_COVER,bias,-3.2523702951372093,ElasticNet
+,Cascades,LIDAR_COVER,rel_bias,0.04079942005334271,ElasticNet
+,Cascades,TOPHT,rmse,27.479288276269266,ElasticNet
+,Cascades,TOPHT,nrmse,0.267166888969594,ElasticNet
+,Cascades,TOPHT,mae,21.233702434904483,ElasticNet
+,Cascades,TOPHT,mape,0.20644429229044478,ElasticNet
+,Cascades,TOPHT,bias,-5.473031445144112,ElasticNet
+,Cascades,TOPHT,rel_bias,0.053211450374231875,ElasticNet
+,Cascades,BA,rmse,93.10658549147475,ElasticNet
+,Cascades,BA,nrmse,0.438982737220857,ElasticNet
+,Cascades,BA,mae,72.01011789262807,ElasticNet
+,Cascades,BA,mape,0.33951624896605137,ElasticNet
+,Cascades,BA,bias,-2.6368814189741006,ElasticNet
+,Cascades,BA,rel_bias,0.012432476359409165,ElasticNet
+,Cascades,QMD,rmse,5.88662612324294,ElasticNet
+,Cascades,QMD,nrmse,0.4295513681022774,ElasticNet
+,Cascades,QMD,mae,4.161551676055539,ElasticNet
+,Cascades,QMD,mape,0.30367143733143936,ElasticNet
+,Cascades,QMD,bias,-0.39687759124358885,ElasticNet
+,Cascades,QMD,rel_bias,0.028960445035687614,ElasticNet
+,Cascades,GS_TPA,rmse,99.25491490091312,ElasticNet
+,Cascades,GS_TPA,nrmse,0.5352564749342996,ElasticNet
+,Cascades,GS_TPA,mae,73.50572725326029,ElasticNet
+,Cascades,GS_TPA,mape,0.39639766450195424,ElasticNet
+,Cascades,GS_TPA,bias,-5.962980123286417,ElasticNet
+,Cascades,GS_TPA,rel_bias,0.03215683297980662,ElasticNet
+,Cascades,ABOVEGROUND_LIVE_CARBON,rmse,34.41835352375187,ElasticNet
+,Cascades,ABOVEGROUND_LIVE_CARBON,nrmse,0.5649948824935572,ElasticNet
+,Cascades,ABOVEGROUND_LIVE_CARBON,mae,25.270272485829405,ElasticNet
+,Cascades,ABOVEGROUND_LIVE_CARBON,mape,0.4148244518395832,ElasticNet
+,Cascades,ABOVEGROUND_LIVE_CARBON,bias,-2.2214346711884203,ElasticNet
+,Cascades,ABOVEGROUND_LIVE_CARBON,rel_bias,0.03646598667623889,ElasticNet
+,Coast Range,LIDAR_COVER,rmse,17.20757177797979,ElasticNet
+,Coast Range,LIDAR_COVER,nrmse,0.2102621076668677,ElasticNet
+,Coast Range,LIDAR_COVER,mae,12.709488039714575,ElasticNet
+,Coast Range,LIDAR_COVER,mape,0.1552992936526324,ElasticNet
+,Coast Range,LIDAR_COVER,bias,-1.0261377512861365,ElasticNet
+,Coast Range,LIDAR_COVER,rel_bias,0.012538543446209215,ElasticNet
+,Coast Range,TOPHT,rmse,31.861651636454624,ElasticNet
+,Coast Range,TOPHT,nrmse,0.2896810346388011,ElasticNet
+,Coast Range,TOPHT,mae,24.486340684901236,ElasticNet
+,Coast Range,TOPHT,mape,0.22262588848359066,ElasticNet
+,Coast Range,TOPHT,bias,-7.6678008593980636,ElasticNet
+,Coast Range,TOPHT,rel_bias,0.06971441756061719,ElasticNet
+,Coast Range,BA,rmse,117.96286622390625,ElasticNet
+,Coast Range,BA,nrmse,0.48563203965699064,ElasticNet
+,Coast Range,BA,mae,86.7306865599778,ElasticNet
+,Coast Range,BA,mape,0.35705473733595433,ElasticNet
+,Coast Range,BA,bias,-29.236847131840094,ElasticNet
+,Coast Range,BA,rel_bias,0.1203628748628839,ElasticNet
+,Coast Range,QMD,rmse,8.44899005167487,ElasticNet
+,Coast Range,QMD,nrmse,0.5173746599993987,ElasticNet
+,Coast Range,QMD,mae,5.726307355169235,ElasticNet
+,Coast Range,QMD,mape,0.35065094204311953,ElasticNet
+,Coast Range,QMD,bias,-2.543232006201246,ElasticNet
+,Coast Range,QMD,rel_bias,0.15573503891712148,ElasticNet
+,Coast Range,GS_TPA,rmse,114.14787738368216,ElasticNet
+,Coast Range,GS_TPA,nrmse,0.6681069457959266,ElasticNet
+,Coast Range,GS_TPA,mae,85.36462892175,ElasticNet
+,Coast Range,GS_TPA,mape,0.4996387389334498,ElasticNet
+,Coast Range,GS_TPA,bias,4.383291891221511,ElasticNet
+,Coast Range,GS_TPA,rel_bias,-0.025655385146869974,ElasticNet
+,Coast Range,ABOVEGROUND_LIVE_CARBON,rmse,48.6256601080464,ElasticNet
+,Coast Range,ABOVEGROUND_LIVE_CARBON,nrmse,0.6615938800592223,ElasticNet
+,Coast Range,ABOVEGROUND_LIVE_CARBON,mae,32.91252320085554,ElasticNet
+,Coast Range,ABOVEGROUND_LIVE_CARBON,mape,0.44780315328593323,ElasticNet
+,Coast Range,ABOVEGROUND_LIVE_CARBON,bias,-13.116576545049508,ElasticNet
+,Coast Range,ABOVEGROUND_LIVE_CARBON,rel_bias,0.1784622923421684,ElasticNet
+,Eastern Cascades,LIDAR_COVER,rmse,15.773778681601893,ElasticNet
+,Eastern Cascades,LIDAR_COVER,nrmse,0.3204641449766859,ElasticNet
+,Eastern Cascades,LIDAR_COVER,mae,11.733990050494402,ElasticNet
+,Eastern Cascades,LIDAR_COVER,mape,0.23839076004550303,ElasticNet
+,Eastern Cascades,LIDAR_COVER,bias,3.6090992930095163,ElasticNet
+,Eastern Cascades,LIDAR_COVER,rel_bias,-0.07332338955784055,ElasticNet
+,Eastern Cascades,TOPHT,rmse,21.293554770881826,ElasticNet
+,Eastern Cascades,TOPHT,nrmse,0.2970399870833632,ElasticNet
+,Eastern Cascades,TOPHT,mae,16.695801335512595,ElasticNet
+,Eastern Cascades,TOPHT,mape,0.2329024282891813,ElasticNet
+,Eastern Cascades,TOPHT,bias,5.383201492720764,ElasticNet
+,Eastern Cascades,TOPHT,rel_bias,-0.0750943709996007,ElasticNet
+,Eastern Cascades,BA,rmse,66.0300384206606,ElasticNet
+,Eastern Cascades,BA,nrmse,0.588545339349268,ElasticNet
+,Eastern Cascades,BA,mae,53.280815045722136,ElasticNet
+,Eastern Cascades,BA,mape,0.4749077256644188,ElasticNet
+,Eastern Cascades,BA,bias,25.47287343030354,ElasticNet
+,Eastern Cascades,BA,rel_bias,-0.22704728477862005,ElasticNet
+,Eastern Cascades,QMD,rmse,5.430471548451174,ElasticNet
+,Eastern Cascades,QMD,nrmse,0.4434472554385036,ElasticNet
+,Eastern Cascades,QMD,mae,4.227531553752048,ElasticNet
+,Eastern Cascades,QMD,mape,0.34521629439817214,ElasticNet
+,Eastern Cascades,QMD,bias,0.4444321913332773,ElasticNet
+,Eastern Cascades,QMD,rel_bias,-0.036291919351178925,ElasticNet
+,Eastern Cascades,GS_TPA,rmse,87.59526083104198,ElasticNet
+,Eastern Cascades,GS_TPA,nrmse,0.7726382212231485,ElasticNet
+,Eastern Cascades,GS_TPA,mae,70.82662317726313,ElasticNet
+,Eastern Cascades,GS_TPA,mape,0.6247296443637047,ElasticNet
+,Eastern Cascades,GS_TPA,bias,16.752853345271575,ElasticNet
+,Eastern Cascades,GS_TPA,rel_bias,-0.14776935060527668,ElasticNet
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,rmse,22.071237529005646,ElasticNet
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,nrmse,0.8025904556002054,ElasticNet
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,mae,17.169195418791986,ElasticNet
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,mape,0.6243343788651632,ElasticNet
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,bias,7.600056631620535,ElasticNet
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.2763656956952922,ElasticNet
+,Klamath Mountains,LIDAR_COVER,rmse,17.151627106034038,ElasticNet
+,Klamath Mountains,LIDAR_COVER,nrmse,0.2370950769181619,ElasticNet
+,Klamath Mountains,LIDAR_COVER,mae,12.0417212562685,ElasticNet
+,Klamath Mountains,LIDAR_COVER,mape,0.16645842460495358,ElasticNet
+,Klamath Mountains,LIDAR_COVER,bias,3.8961995376740908,ElasticNet
+,Klamath Mountains,LIDAR_COVER,rel_bias,-0.05385901427091765,ElasticNet
+,Klamath Mountains,TOPHT,rmse,34.56218328703087,ElasticNet
+,Klamath Mountains,TOPHT,nrmse,0.3630323779199041,ElasticNet
+,Klamath Mountains,TOPHT,mae,28.02375783930137,ElasticNet
+,Klamath Mountains,TOPHT,mape,0.2943544209046149,ElasticNet
+,Klamath Mountains,TOPHT,bias,11.255437535266779,ElasticNet
+,Klamath Mountains,TOPHT,rel_bias,-0.11822425160536977,ElasticNet
+,Klamath Mountains,BA,rmse,89.57076204740032,ElasticNet
+,Klamath Mountains,BA,nrmse,0.45123515897349553,ElasticNet
+,Klamath Mountains,BA,mae,71.03611223986962,ElasticNet
+,Klamath Mountains,BA,mape,0.3578622160482888,ElasticNet
+,Klamath Mountains,BA,bias,18.705280702579262,ElasticNet
+,Klamath Mountains,BA,rel_bias,-0.09423253881669064,ElasticNet
+,Klamath Mountains,QMD,rmse,8.625642721728665,ElasticNet
+,Klamath Mountains,QMD,nrmse,0.7679097459738017,ElasticNet
+,Klamath Mountains,QMD,mae,7.576270852546681,ElasticNet
+,Klamath Mountains,QMD,mape,0.674487967273687,ElasticNet
+,Klamath Mountains,QMD,bias,4.672570602595878,ElasticNet
+,Klamath Mountains,QMD,rel_bias,-0.4159820456561828,ElasticNet
+,Klamath Mountains,GS_TPA,rmse,104.41852910265338,ElasticNet
+,Klamath Mountains,GS_TPA,nrmse,0.7128864913597399,ElasticNet
+,Klamath Mountains,GS_TPA,mae,78.61713551167621,ElasticNet
+,Klamath Mountains,GS_TPA,mape,0.5367351405666171,ElasticNet
+,Klamath Mountains,GS_TPA,bias,-5.311863979286904,ElasticNet
+,Klamath Mountains,GS_TPA,rel_bias,0.036265173502408606,ElasticNet
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,rmse,37.664723376202936,ElasticNet
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,nrmse,0.6614743123339325,ElasticNet
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,mae,30.171648460539114,ElasticNet
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,mape,0.5298796494022798,ElasticNet
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,bias,12.181087438514465,ElasticNet
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.21392634047490916,ElasticNet
+,North Cascades,LIDAR_COVER,rmse,16.79130486410927,ElasticNet
+,North Cascades,LIDAR_COVER,nrmse,0.2444942554341549,ElasticNet
+,North Cascades,LIDAR_COVER,mae,13.286661932535342,ElasticNet
+,North Cascades,LIDAR_COVER,mape,0.19346397094749446,ElasticNet
+,North Cascades,LIDAR_COVER,bias,-2.897383266560328,ElasticNet
+,North Cascades,LIDAR_COVER,rel_bias,0.04218811880303652,ElasticNet
+,North Cascades,TOPHT,rmse,21.671229988494805,ElasticNet
+,North Cascades,TOPHT,nrmse,0.25649681212484926,ElasticNet
+,North Cascades,TOPHT,mae,16.58197283366304,ElasticNet
+,North Cascades,TOPHT,mape,0.1962612723335707,ElasticNet
+,North Cascades,TOPHT,bias,1.2612246018161744,ElasticNet
+,North Cascades,TOPHT,rel_bias,-0.014927629392103096,ElasticNet
+,North Cascades,BA,rmse,85.26944370473068,ElasticNet
+,North Cascades,BA,nrmse,0.4894321338452176,ElasticNet
+,North Cascades,BA,mae,64.59242358275993,ElasticNet
+,North Cascades,BA,mape,0.37074954791326326,ElasticNet
+,North Cascades,BA,bias,-7.9758317505013325,ElasticNet
+,North Cascades,BA,rel_bias,0.04577992048776242,ElasticNet
+,North Cascades,QMD,rmse,5.311858714108551,ElasticNet
+,North Cascades,QMD,nrmse,0.4437587159994094,ElasticNet
+,North Cascades,QMD,mae,4.003676477318068,ElasticNet
+,North Cascades,QMD,mape,0.33447168467278576,ElasticNet
+,North Cascades,QMD,bias,1.1901425935341499,ElasticNet
+,North Cascades,QMD,rel_bias,-0.0994258653303723,ElasticNet
+,North Cascades,GS_TPA,rmse,114.64485048382437,ElasticNet
+,North Cascades,GS_TPA,nrmse,0.6228792511684339,ElasticNet
+,North Cascades,GS_TPA,mae,85.01086300053427,ElasticNet
+,North Cascades,GS_TPA,mape,0.4618742356371795,ElasticNet
+,North Cascades,GS_TPA,bias,-16.34528062429613,ElasticNet
+,North Cascades,GS_TPA,rel_bias,0.08880587407487592,ElasticNet
+,North Cascades,ABOVEGROUND_LIVE_CARBON,rmse,25.928055726185278,ElasticNet
+,North Cascades,ABOVEGROUND_LIVE_CARBON,nrmse,0.5979451456576672,ElasticNet
+,North Cascades,ABOVEGROUND_LIVE_CARBON,mae,19.290400745425178,ElasticNet
+,North Cascades,ABOVEGROUND_LIVE_CARBON,mape,0.44486951144080567,ElasticNet
+,North Cascades,ABOVEGROUND_LIVE_CARBON,bias,-1.5394296354947852,ElasticNet
+,North Cascades,ABOVEGROUND_LIVE_CARBON,rel_bias,0.03550187053539971,ElasticNet
+,Northern Rockies,LIDAR_COVER,rmse,18.0086922534361,ElasticNet
+,Northern Rockies,LIDAR_COVER,nrmse,0.3512217204009445,ElasticNet
+,Northern Rockies,LIDAR_COVER,mae,13.413371353293906,ElasticNet
+,Northern Rockies,LIDAR_COVER,mape,0.2615996373740991,ElasticNet
+,Northern Rockies,LIDAR_COVER,bias,-2.3505548842502444,ElasticNet
+,Northern Rockies,LIDAR_COVER,rel_bias,0.045842636362764984,ElasticNet
+,Northern Rockies,TOPHT,rmse,23.542670263818692,ElasticNet
+,Northern Rockies,TOPHT,nrmse,0.32901008531686804,ElasticNet
+,Northern Rockies,TOPHT,mae,17.48458998116971,ElasticNet
+,Northern Rockies,TOPHT,mape,0.24434808698297641,ElasticNet
+,Northern Rockies,TOPHT,bias,-6.669862433310161,ElasticNet
+,Northern Rockies,TOPHT,rel_bias,0.09321168684962937,ElasticNet
+,Northern Rockies,BA,rmse,66.40598018026328,ElasticNet
+,Northern Rockies,BA,nrmse,0.7468404329712184,ElasticNet
+,Northern Rockies,BA,mae,52.84854884728724,ElasticNet
+,Northern Rockies,BA,mape,0.594365642911471,ElasticNet
+,Northern Rockies,BA,bias,-31.21584678236151,ElasticNet
+,Northern Rockies,BA,rel_bias,0.3510716423914948,ElasticNet
+,Northern Rockies,QMD,rmse,6.997005192533829,ElasticNet
+,Northern Rockies,QMD,nrmse,0.6031525473727587,ElasticNet
+,Northern Rockies,QMD,mae,4.5817117177777655,ElasticNet
+,Northern Rockies,QMD,mape,0.394950556397192,ElasticNet
+,Northern Rockies,QMD,bias,-0.8821242724742547,ElasticNet
+,Northern Rockies,QMD,rel_bias,0.07604046122617135,ElasticNet
+,Northern Rockies,GS_TPA,rmse,84.96116983188027,ElasticNet
+,Northern Rockies,GS_TPA,nrmse,0.7796608209272032,ElasticNet
+,Northern Rockies,GS_TPA,mae,69.00039103924298,ElasticNet
+,Northern Rockies,GS_TPA,mape,0.6331939829501715,ElasticNet
+,Northern Rockies,GS_TPA,bias,12.172203385247563,ElasticNet
+,Northern Rockies,GS_TPA,rel_bias,-0.11170032266050509,ElasticNet
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,rmse,21.31978437422633,ElasticNet
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,nrmse,1.1090019095975778,ElasticNet
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,mae,17.33489869811012,ElasticNet
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,mape,0.9017181140971234,ElasticNet
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,bias,-11.121641537992188,ElasticNet
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,rel_bias,0.5785200022193312,ElasticNet
+,Puget Lowland,LIDAR_COVER,rmse,17.91621370141087,ElasticNet
+,Puget Lowland,LIDAR_COVER,nrmse,0.2288534187246427,ElasticNet
+,Puget Lowland,LIDAR_COVER,mae,13.086252680787982,ElasticNet
+,Puget Lowland,LIDAR_COVER,mape,0.16715773288956765,ElasticNet
+,Puget Lowland,LIDAR_COVER,bias,-1.1225293934305651,ElasticNet
+,Puget Lowland,LIDAR_COVER,rel_bias,0.014338670747450075,ElasticNet
+,Puget Lowland,TOPHT,rmse,26.924481562712387,ElasticNet
+,Puget Lowland,TOPHT,nrmse,0.272117163463685,ElasticNet
+,Puget Lowland,TOPHT,mae,20.794542248907938,ElasticNet
+,Puget Lowland,TOPHT,mape,0.2101638183494345,ElasticNet
+,Puget Lowland,TOPHT,bias,2.210996431639387,ElasticNet
+,Puget Lowland,TOPHT,rel_bias,-0.022345837040712503,ElasticNet
+,Puget Lowland,BA,rmse,84.76637772362163,ElasticNet
+,Puget Lowland,BA,nrmse,0.44707256564153725,ElasticNet
+,Puget Lowland,BA,mae,66.81968614776036,ElasticNet
+,Puget Lowland,BA,mape,0.3524186042117122,ElasticNet
+,Puget Lowland,BA,bias,16.585625767202792,ElasticNet
+,Puget Lowland,BA,rel_bias,-0.08747546449006077,ElasticNet
+,Puget Lowland,QMD,rmse,5.514174979664072,ElasticNet
+,Puget Lowland,QMD,nrmse,0.4072181047416445,ElasticNet
+,Puget Lowland,QMD,mae,3.879296587805467,ElasticNet
+,Puget Lowland,QMD,mape,0.2864834376933589,ElasticNet
+,Puget Lowland,QMD,bias,1.4012256257517046,ElasticNet
+,Puget Lowland,QMD,rel_bias,-0.10347956779362044,ElasticNet
+,Puget Lowland,GS_TPA,rmse,106.31663929174364,ElasticNet
+,Puget Lowland,GS_TPA,nrmse,0.6303654675431603,ElasticNet
+,Puget Lowland,GS_TPA,mae,81.6655872785361,ElasticNet
+,Puget Lowland,GS_TPA,mape,0.4842061078111876,ElasticNet
+,Puget Lowland,GS_TPA,bias,3.425696906387212,ElasticNet
+,Puget Lowland,GS_TPA,rel_bias,-0.020311411707909684,ElasticNet
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,rmse,29.851545197228,ElasticNet
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,nrmse,0.573630424714157,ElasticNet
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,mae,23.575141888828856,ElasticNet
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,mape,0.45302240018185697,ElasticNet
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,bias,6.130180504996509,ElasticNet
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.11779819179953639,ElasticNet
+,Willamette Valley,LIDAR_COVER,rmse,11.178675260484118,ElasticNet
+,Willamette Valley,LIDAR_COVER,nrmse,0.13482909444709407,ElasticNet
+,Willamette Valley,LIDAR_COVER,mae,8.325249137161515,ElasticNet
+,Willamette Valley,LIDAR_COVER,mape,0.10041313268825797,ElasticNet
+,Willamette Valley,LIDAR_COVER,bias,-0.24223338173260628,ElasticNet
+,Willamette Valley,LIDAR_COVER,rel_bias,0.0029216438211883563,ElasticNet
+,Willamette Valley,TOPHT,rmse,27.625232332551825,ElasticNet
+,Willamette Valley,TOPHT,nrmse,0.24639504179086097,ElasticNet
+,Willamette Valley,TOPHT,mae,24.17945412504719,ElasticNet
+,Willamette Valley,TOPHT,mape,0.21566144812476506,ElasticNet
+,Willamette Valley,TOPHT,bias,5.648797119529794,ElasticNet
+,Willamette Valley,TOPHT,rel_bias,-0.05038276549423216,ElasticNet
+,Willamette Valley,BA,rmse,117.99209953955797,ElasticNet
+,Willamette Valley,BA,nrmse,0.5033287393788229,ElasticNet
+,Willamette Valley,BA,mae,91.64096281085733,ElasticNet
+,Willamette Valley,BA,mape,0.39092049778795906,ElasticNet
+,Willamette Valley,BA,bias,4.779370717781818,ElasticNet
+,Willamette Valley,BA,rel_bias,-0.02038776026354785,ElasticNet
+,Willamette Valley,QMD,rmse,8.804731167718971,ElasticNet
+,Willamette Valley,QMD,nrmse,0.46796061974799796,ElasticNet
+,Willamette Valley,QMD,mae,4.952131327485405,ElasticNet
+,Willamette Valley,QMD,mape,0.2631996821867659,ElasticNet
+,Willamette Valley,QMD,bias,-1.950904957395328,ElasticNet
+,Willamette Valley,QMD,rel_bias,0.10368819621424909,ElasticNet
+,Willamette Valley,GS_TPA,rmse,77.68802129267542,ElasticNet
+,Willamette Valley,GS_TPA,nrmse,0.5336578155711501,ElasticNet
+,Willamette Valley,GS_TPA,mae,56.36382704146734,ElasticNet
+,Willamette Valley,GS_TPA,mape,0.3871767656800327,ElasticNet
+,Willamette Valley,GS_TPA,bias,-6.605623422103257,ElasticNet
+,Willamette Valley,GS_TPA,rel_bias,0.04537562557610933,ElasticNet
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,rmse,43.46659107593244,ElasticNet
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,nrmse,0.6059800297612362,ElasticNet
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,mae,35.195971753572444,ElasticNet
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,mape,0.4906769885277444,ElasticNet
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,bias,5.020715127273364,ElasticNet
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.06999520843336657,ElasticNet
+,Blue Mountains,LIDAR_COVER,rmse,9.534374150717271,Lasso
+,Blue Mountains,LIDAR_COVER,nrmse,0.28565106930734846,Lasso
+,Blue Mountains,LIDAR_COVER,mae,7.053615602086778,Lasso
+,Blue Mountains,LIDAR_COVER,mape,0.21132722582189684,Lasso
+,Blue Mountains,LIDAR_COVER,bias,0.9200038103085448,Lasso
+,Blue Mountains,LIDAR_COVER,rel_bias,-0.02756343185480091,Lasso
+,Blue Mountains,TOPHT,rmse,22.91823449215672,Lasso
+,Blue Mountains,TOPHT,nrmse,0.3817223002024803,Lasso
+,Blue Mountains,TOPHT,mae,16.295601244741384,Lasso
+,Blue Mountains,TOPHT,mape,0.27141682281215335,Lasso
+,Blue Mountains,TOPHT,bias,-4.407253298197345,Lasso
+,Blue Mountains,TOPHT,rel_bias,0.07340647758615987,Lasso
+,Blue Mountains,BA,rmse,55.3892669141549,Lasso
+,Blue Mountains,BA,nrmse,0.8301505861530747,Lasso
+,Blue Mountains,BA,mae,44.85179744739059,Lasso
+,Blue Mountains,BA,mape,0.672219511384345,Lasso
+,Blue Mountains,BA,bias,-33.77693485316272,Lasso
+,Blue Mountains,BA,rel_bias,0.5062342188111096,Lasso
+,Blue Mountains,QMD,rmse,4.747826455466257,Lasso
+,Blue Mountains,QMD,nrmse,0.35535924406245434,Lasso
+,Blue Mountains,QMD,mae,3.713927944634033,Lasso
+,Blue Mountains,QMD,mape,0.2779753302457149,Lasso
+,Blue Mountains,QMD,bias,-2.377891321149377,Lasso
+,Blue Mountains,QMD,rel_bias,0.17797736928093558,Lasso
+,Blue Mountains,GS_TPA,rmse,62.18335684658832,Lasso
+,Blue Mountains,GS_TPA,nrmse,0.8139702543611906,Lasso
+,Blue Mountains,GS_TPA,mae,43.76485275165024,Lasso
+,Blue Mountains,GS_TPA,mape,0.5728749641841708,Lasso
+,Blue Mountains,GS_TPA,bias,-13.081788701085364,Lasso
+,Blue Mountains,GS_TPA,rel_bias,0.17123853417549964,Lasso
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,rmse,17.71999776151023,Lasso
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,nrmse,1.2239216782714275,Lasso
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,mae,13.760036822265846,Lasso
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,mape,0.9504068559853431,Lasso
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,bias,-9.380120996062297,Lasso
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,rel_bias,0.6478857156983729,Lasso
+,Cascades,LIDAR_COVER,rmse,16.296035204695187,Lasso
+,Cascades,LIDAR_COVER,nrmse,0.20442591869520516,Lasso
+,Cascades,LIDAR_COVER,mae,12.403544805757285,Lasso
+,Cascades,LIDAR_COVER,mape,0.15559650001636707,Lasso
+,Cascades,LIDAR_COVER,bias,-4.1926549798950035,Lasso
+,Cascades,LIDAR_COVER,rel_bias,0.0525948388838851,Lasso
+,Cascades,TOPHT,rmse,27.573247296128216,Lasso
+,Cascades,TOPHT,nrmse,0.2680804038602991,Lasso
+,Cascades,TOPHT,mae,21.285588904709837,Lasso
+,Cascades,TOPHT,mape,0.20694875756546,Lasso
+,Cascades,TOPHT,bias,-6.8387642252162895,Lasso
+,Cascades,TOPHT,rel_bias,0.06648976291083358,Lasso
+,Cascades,BA,rmse,93.80405658021587,Lasso
+,Cascades,BA,nrmse,0.4422712024357695,Lasso
+,Cascades,BA,mae,72.47618468241414,Lasso
+,Cascades,BA,mape,0.3417136797280973,Lasso
+,Cascades,BA,bias,-5.96443402660077,Lasso
+,Cascades,BA,rel_bias,0.028121357486685684,Lasso
+,Cascades,QMD,rmse,5.93097708813471,Lasso
+,Cascades,QMD,nrmse,0.43278769010524853,Lasso
+,Cascades,QMD,mae,4.266637337746565,Lasso
+,Cascades,QMD,mape,0.31133961411084826,Lasso
+,Cascades,QMD,bias,-0.6718728026987844,Lasso
+,Cascades,QMD,rel_bias,0.04902704461736438,Lasso
+,Cascades,GS_TPA,rmse,98.47524042383351,Lasso
+,Cascades,GS_TPA,nrmse,0.5310518890695644,Lasso
+,Cascades,GS_TPA,mae,72.33558286126251,Lasso
+,Cascades,GS_TPA,mape,0.3900873738422913,Lasso
+,Cascades,GS_TPA,bias,-5.632057816645205,Lasso
+,Cascades,GS_TPA,rel_bias,0.03037225326900106,Lasso
+,Cascades,ABOVEGROUND_LIVE_CARBON,rmse,34.670865802183975,Lasso
+,Cascades,ABOVEGROUND_LIVE_CARBON,nrmse,0.5691400007364295,Lasso
+,Cascades,ABOVEGROUND_LIVE_CARBON,mae,25.43230741004194,Lasso
+,Cascades,ABOVEGROUND_LIVE_CARBON,mape,0.4174843380221729,Lasso
+,Cascades,ABOVEGROUND_LIVE_CARBON,bias,-3.7895001859602333,Lasso
+,Cascades,ABOVEGROUND_LIVE_CARBON,rel_bias,0.06220658436779646,Lasso
+,Coast Range,LIDAR_COVER,rmse,17.13887071166338,Lasso
+,Coast Range,LIDAR_COVER,nrmse,0.20942263820603796,Lasso
+,Coast Range,LIDAR_COVER,mae,12.561342884624432,Lasso
+,Coast Range,LIDAR_COVER,mape,0.1534890839988944,Lasso
+,Coast Range,LIDAR_COVER,bias,-0.7210647280450682,Lasso
+,Coast Range,LIDAR_COVER,rel_bias,0.008810806744796416,Lasso
+,Coast Range,TOPHT,rmse,31.458141961346705,Lasso
+,Coast Range,TOPHT,nrmse,0.28601238928714934,Lasso
+,Coast Range,TOPHT,mae,24.263458258308482,Lasso
+,Coast Range,TOPHT,mape,0.22059947715140713,Lasso
+,Coast Range,TOPHT,bias,-6.625164622213128,Lasso
+,Coast Range,TOPHT,rel_bias,0.06023493585057088,Lasso
+,Coast Range,BA,rmse,116.85938290576024,Lasso
+,Coast Range,BA,nrmse,0.481089196034477,Lasso
+,Coast Range,BA,mae,86.22204926878986,Lasso
+,Coast Range,BA,mape,0.35496076850430225,Lasso
+,Coast Range,BA,bias,-26.01966631919817,Lasso
+,Coast Range,BA,rel_bias,0.1071183163844294,Lasso
+,Coast Range,QMD,rmse,8.398557561025356,Lasso
+,Coast Range,QMD,nrmse,0.514286421932703,Lasso
+,Coast Range,QMD,mae,5.715231619161815,Lasso
+,Coast Range,QMD,mape,0.349972718360048,Lasso
+,Coast Range,QMD,bias,-2.3689056083757705,Lasso
+,Coast Range,QMD,rel_bias,0.14506014638532164,Lasso
+,Coast Range,GS_TPA,rmse,113.82680466460675,Lasso
+,Coast Range,GS_TPA,nrmse,0.6662277088040828,Lasso
+,Coast Range,GS_TPA,mae,85.02543761834036,Lasso
+,Coast Range,GS_TPA,mape,0.4976534539596449,Lasso
+,Coast Range,GS_TPA,bias,4.065474489851142,Lasso
+,Coast Range,GS_TPA,rel_bias,-0.02379520151299796,Lasso
+,Coast Range,ABOVEGROUND_LIVE_CARBON,rmse,48.20932863756304,Lasso
+,Coast Range,ABOVEGROUND_LIVE_CARBON,nrmse,0.6559293327330613,Lasso
+,Coast Range,ABOVEGROUND_LIVE_CARBON,mae,32.80828367460768,Lasso
+,Coast Range,ABOVEGROUND_LIVE_CARBON,mape,0.446384884979187,Lasso
+,Coast Range,ABOVEGROUND_LIVE_CARBON,bias,-11.947507256111562,Lasso
+,Coast Range,ABOVEGROUND_LIVE_CARBON,rel_bias,0.1625561003191105,Lasso
+,Eastern Cascades,LIDAR_COVER,rmse,15.62634154419315,Lasso
+,Eastern Cascades,LIDAR_COVER,nrmse,0.3174687741697776,Lasso
+,Eastern Cascades,LIDAR_COVER,mae,11.62889725426199,Lasso
+,Eastern Cascades,LIDAR_COVER,mape,0.23625566776561002,Lasso
+,Eastern Cascades,LIDAR_COVER,bias,3.261605634715733,Lasso
+,Eastern Cascades,LIDAR_COVER,rel_bias,-0.06626361901472876,Lasso
+,Eastern Cascades,TOPHT,rmse,21.359802022336613,Lasso
+,Eastern Cascades,TOPHT,nrmse,0.297964120368208,Lasso
+,Eastern Cascades,TOPHT,mae,16.764946694025944,Lasso
+,Eastern Cascades,TOPHT,mape,0.23386698947310192,Lasso
+,Eastern Cascades,TOPHT,bias,4.661009084443147,Lasso
+,Eastern Cascades,TOPHT,rel_bias,-0.06501995994260636,Lasso
+,Eastern Cascades,BA,rmse,65.42340905769976,Lasso
+,Eastern Cascades,BA,nrmse,0.5831382717051682,Lasso
+,Eastern Cascades,BA,mae,52.64586795898758,Lasso
+,Eastern Cascades,BA,mape,0.46924825373968204,Lasso
+,Eastern Cascades,BA,bias,24.362099021887563,Lasso
+,Eastern Cascades,BA,rel_bias,-0.21714662264395876,Lasso
+,Eastern Cascades,QMD,rmse,5.453753202319265,Lasso
+,Eastern Cascades,QMD,nrmse,0.44534841363770616,Lasso
+,Eastern Cascades,QMD,mae,4.242285455087301,Lasso
+,Eastern Cascades,QMD,mape,0.34642108425771845,Lasso
+,Eastern Cascades,QMD,bias,0.34637398459567337,Lasso
+,Eastern Cascades,QMD,rel_bias,-0.028284577398818664,Lasso
+,Eastern Cascades,GS_TPA,rmse,89.03030975416715,Lasso
+,Eastern Cascades,GS_TPA,nrmse,0.7852961394348458,Lasso
+,Eastern Cascades,GS_TPA,mae,72.16708938177153,Lasso
+,Eastern Cascades,GS_TPA,mape,0.636553291145907,Lasso
+,Eastern Cascades,GS_TPA,bias,19.217261474142155,Lasso
+,Eastern Cascades,GS_TPA,rel_bias,-0.16950678131778002,Lasso
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,rmse,21.813073150358278,Lasso
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,nrmse,0.7932026600130283,Lasso
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,mae,16.862364712486396,Lasso
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,mape,0.613176898635869,Lasso
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,bias,6.958692711430085,Lasso
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.25304337132473037,Lasso
+,Klamath Mountains,LIDAR_COVER,rmse,17.092477302361743,Lasso
+,Klamath Mountains,LIDAR_COVER,nrmse,0.23627742112581768,Lasso
+,Klamath Mountains,LIDAR_COVER,mae,11.877101044245896,Lasso
+,Klamath Mountains,LIDAR_COVER,mape,0.16418280133081814,Lasso
+,Klamath Mountains,LIDAR_COVER,bias,4.127745472814399,Lasso
+,Klamath Mountains,LIDAR_COVER,rel_bias,-0.05705978356019783,Lasso
+,Klamath Mountains,TOPHT,rmse,34.269187479827615,Lasso
+,Klamath Mountains,TOPHT,nrmse,0.35995482452212807,Lasso
+,Klamath Mountains,TOPHT,mae,27.616035801207424,Lasso
+,Klamath Mountains,TOPHT,mape,0.29007181237290397,Lasso
+,Klamath Mountains,TOPHT,bias,11.962278117272685,Lasso
+,Klamath Mountains,TOPHT,rel_bias,-0.12564872520314108,Lasso
+,Klamath Mountains,BA,rmse,89.33657411521337,Lasso
+,Klamath Mountains,BA,nrmse,0.4500553785809369,Lasso
+,Klamath Mountains,BA,mae,70.92040540510598,Lasso
+,Klamath Mountains,BA,mape,0.35727931387367895,Lasso
+,Klamath Mountains,BA,bias,19.082620124215307,Lasso
+,Klamath Mountains,BA,rel_bias,-0.09613348070907737,Lasso
+,Klamath Mountains,QMD,rmse,8.6571891705941,Lasso
+,Klamath Mountains,QMD,nrmse,0.7707182121155313,Lasso
+,Klamath Mountains,QMD,mae,7.612969228961724,Lasso
+,Klamath Mountains,QMD,mape,0.6777550908747534,Lasso
+,Klamath Mountains,QMD,bias,4.777731665780891,Lasso
+,Klamath Mountains,QMD,rel_bias,-0.4253441544197781,Lasso
+,Klamath Mountains,GS_TPA,rmse,104.15896476987064,Lasso
+,Klamath Mountains,GS_TPA,nrmse,0.7111143929776825,Lasso
+,Klamath Mountains,GS_TPA,mae,77.80382637208345,Lasso
+,Klamath Mountains,GS_TPA,mape,0.5311825139983469,Lasso
+,Klamath Mountains,GS_TPA,bias,-8.590154234167649,Lasso
+,Klamath Mountains,GS_TPA,rel_bias,0.05864672644655341,Lasso
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,rmse,37.51818151942679,Lasso
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,nrmse,0.6589007191876097,Lasso
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,mae,30.184344714857904,Lasso
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,mape,0.530102623191596,Lasso
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,bias,12.89199550110013,Lasso
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.22641142943028456,Lasso
+,North Cascades,LIDAR_COVER,rmse,16.79879700043773,Lasso
+,North Cascades,LIDAR_COVER,nrmse,0.24460334667560768,Lasso
+,North Cascades,LIDAR_COVER,mae,13.073280681021203,Lasso
+,North Cascades,LIDAR_COVER,mape,0.19035697654564365,Lasso
+,North Cascades,LIDAR_COVER,bias,-1.7490932442854283,Lasso
+,North Cascades,LIDAR_COVER,rel_bias,0.025468136866512753,Lasso
+,North Cascades,TOPHT,rmse,21.757005065007164,Lasso
+,North Cascades,TOPHT,nrmse,0.2575120306286843,Lasso
+,North Cascades,TOPHT,mae,17.05747315559611,Lasso
+,North Cascades,TOPHT,mape,0.20188920931753157,Lasso
+,North Cascades,TOPHT,bias,2.825978159263802,Lasso
+,North Cascades,TOPHT,rel_bias,-0.03344777335529353,Lasso
+,North Cascades,BA,rmse,85.23418845819305,Lasso
+,North Cascades,BA,nrmse,0.4892297747140627,Lasso
+,North Cascades,BA,mae,64.89558389209132,Lasso
+,North Cascades,BA,mape,0.3724896366325826,Lasso
+,North Cascades,BA,bias,-4.431062345043232,Lasso
+,North Cascades,BA,rel_bias,0.025433545764007196,Lasso
+,North Cascades,QMD,rmse,5.382313498046075,Lasso
+,North Cascades,QMD,nrmse,0.4496445887492042,Lasso
+,North Cascades,QMD,mae,4.090959275888396,Lasso
+,North Cascades,QMD,mape,0.34176338889668173,Lasso
+,North Cascades,QMD,bias,1.3473386744483167,Lasso
+,North Cascades,QMD,rel_bias,-0.11255820464529641,Lasso
+,North Cascades,GS_TPA,rmse,115.17130419653546,Lasso
+,North Cascades,GS_TPA,nrmse,0.6257395374609663,Lasso
+,North Cascades,GS_TPA,mae,84.66722985274232,Lasso
+,North Cascades,GS_TPA,mape,0.4600072354459803,Lasso
+,North Cascades,GS_TPA,bias,-18.262238833460977,Lasso
+,North Cascades,GS_TPA,rel_bias,0.09922093841319307,Lasso
+,North Cascades,ABOVEGROUND_LIVE_CARBON,rmse,25.91435629979324,Lasso
+,North Cascades,ABOVEGROUND_LIVE_CARBON,nrmse,0.5976292135416643,Lasso
+,North Cascades,ABOVEGROUND_LIVE_CARBON,mae,19.37697064232849,Lasso
+,North Cascades,ABOVEGROUND_LIVE_CARBON,mape,0.4468659607758456,Lasso
+,North Cascades,ABOVEGROUND_LIVE_CARBON,bias,-0.04611176731907639,Lasso
+,North Cascades,ABOVEGROUND_LIVE_CARBON,rel_bias,0.0010634159274153267,Lasso
+,Northern Rockies,LIDAR_COVER,rmse,17.794171256589767,Lasso
+,Northern Rockies,LIDAR_COVER,nrmse,0.34703793889620377,Lasso
+,Northern Rockies,LIDAR_COVER,mae,13.265761319876317,Lasso
+,Northern Rockies,LIDAR_COVER,mape,0.25872081368408495,Lasso
+,Northern Rockies,LIDAR_COVER,bias,-1.7437316997176966,Lasso
+,Northern Rockies,LIDAR_COVER,rel_bias,0.034007824603458275,Lasso
+,Northern Rockies,TOPHT,rmse,23.037762742263368,Lasso
+,Northern Rockies,TOPHT,nrmse,0.3219539755008399,Lasso
+,Northern Rockies,TOPHT,mae,17.289212974283277,Lasso
+,Northern Rockies,TOPHT,mape,0.24161768278564758,Lasso
+,Northern Rockies,TOPHT,bias,-4.5036124116961975,Lasso
+,Northern Rockies,TOPHT,rel_bias,0.06293822608913906,Lasso
+,Northern Rockies,BA,rmse,66.91785404199408,Lasso
+,Northern Rockies,BA,nrmse,0.752597265345109,Lasso
+,Northern Rockies,BA,mae,53.348280718764016,Lasso
+,Northern Rockies,BA,mape,0.5999859193722672,Lasso
+,Northern Rockies,BA,bias,-32.92648361590992,Lasso
+,Northern Rockies,BA,rel_bias,0.3703104632018459,Lasso
+,Northern Rockies,QMD,rmse,6.987963553623305,Lasso
+,Northern Rockies,QMD,nrmse,0.6023731442722542,Lasso
+,Northern Rockies,QMD,mae,4.625628685883125,Lasso
+,Northern Rockies,QMD,mape,0.3987362662054255,Lasso
+,Northern Rockies,QMD,bias,-0.6091558140615473,Lasso
+,Northern Rockies,QMD,rel_bias,0.052510162689345816,Lasso
+,Northern Rockies,GS_TPA,rmse,82.78279202276804,Lasso
+,Northern Rockies,GS_TPA,nrmse,0.7596705614439263,Lasso
+,Northern Rockies,GS_TPA,mae,65.08512480359168,Lasso
+,Northern Rockies,GS_TPA,mape,0.597264867408603,Lasso
+,Northern Rockies,GS_TPA,bias,2.8329334566526887,Lasso
+,Northern Rockies,GS_TPA,rel_bias,-0.025996902217996373,Lasso
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,rmse,20.906181044903096,Lasso
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,nrmse,1.0874872979118286,Lasso
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,mae,17.116235650909058,Lasso
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,mape,0.8903438087735874,Lasso
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,bias,-10.693983003568322,Lasso
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,rel_bias,0.5562742738851777,Lasso
+,Puget Lowland,LIDAR_COVER,rmse,17.938094162569314,Lasso
+,Puget Lowland,LIDAR_COVER,nrmse,0.2291329096049612,Lasso
+,Puget Lowland,LIDAR_COVER,mae,12.99886024848606,Lasso
+,Puget Lowland,LIDAR_COVER,mape,0.16604142242150363,Lasso
+,Puget Lowland,LIDAR_COVER,bias,-0.592823722628477,Lasso
+,Puget Lowland,LIDAR_COVER,rel_bias,0.007572455759104533,Lasso
+,Puget Lowland,TOPHT,rmse,26.88424298412929,Lasso
+,Puget Lowland,TOPHT,nrmse,0.27171048496031847,Lasso
+,Puget Lowland,TOPHT,mae,20.825039046958345,Lasso
+,Puget Lowland,TOPHT,mape,0.210472039778355,Lasso
+,Puget Lowland,TOPHT,bias,3.1892340219041553,Lasso
+,Puget Lowland,TOPHT,rel_bias,-0.0322325729333379,Lasso
+,Puget Lowland,BA,rmse,85.0219139295726,Lasso
+,Puget Lowland,BA,nrmse,0.4484203078746818,Lasso
+,Puget Lowland,BA,mae,67.21798472615734,Lasso
+,Puget Lowland,BA,mape,0.35451929993703746,Lasso
+,Puget Lowland,BA,bias,17.152889956087574,Lasso
+,Puget Lowland,BA,rel_bias,-0.09046731412587,Lasso
+,Puget Lowland,QMD,rmse,5.511266164368227,Lasso
+,Puget Lowland,QMD,nrmse,0.4070032906930903,Lasso
+,Puget Lowland,QMD,mae,3.8750022085369844,Lasso
+,Puget Lowland,QMD,mape,0.28616630067953497,Lasso
+,Puget Lowland,QMD,bias,1.4122518602933976,Lasso
+,Puget Lowland,QMD,rel_bias,-0.10429384778093753,Lasso
+,Puget Lowland,GS_TPA,rmse,107.06497888194104,Lasso
+,Puget Lowland,GS_TPA,nrmse,0.6348024723130475,Lasso
+,Puget Lowland,GS_TPA,mae,81.97376515962443,Lasso
+,Puget Lowland,GS_TPA,mape,0.48603333537775534,Lasso
+,Puget Lowland,GS_TPA,bias,2.6364280523311088,Lasso
+,Puget Lowland,GS_TPA,rel_bias,-0.015631731899379782,Lasso
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,rmse,30.023301493067876,Lasso
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,nrmse,0.576930911716723,Lasso
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,mae,23.82949644501936,Lasso
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,mape,0.45791010402202825,Lasso
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,bias,6.559921863895226,Lasso
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.12605614684319025,Lasso
+,Willamette Valley,LIDAR_COVER,rmse,11.17861905626723,Lasso
+,Willamette Valley,LIDAR_COVER,nrmse,0.13482841655248756,Lasso
+,Willamette Valley,LIDAR_COVER,mae,8.338237808050572,Lasso
+,Willamette Valley,LIDAR_COVER,mape,0.10056979264064367,Lasso
+,Willamette Valley,LIDAR_COVER,bias,0.21304862725884044,Lasso
+,Willamette Valley,LIDAR_COVER,rel_bias,-0.002569638424693082,Lasso
+,Willamette Valley,TOPHT,rmse,27.77884907247054,Lasso
+,Willamette Valley,TOPHT,nrmse,0.2477651806044067,Lasso
+,Willamette Valley,TOPHT,mae,24.309168420663912,Lasso
+,Willamette Valley,TOPHT,mape,0.2168183961968974,Lasso
+,Willamette Valley,TOPHT,bias,7.376664540951955,Lasso
+,Willamette Valley,TOPHT,rel_bias,-0.06579396495077819,Lasso
+,Willamette Valley,BA,rmse,117.26656059020824,Lasso
+,Willamette Valley,BA,nrmse,0.5002337473736675,Lasso
+,Willamette Valley,BA,mae,91.00070732827136,Lasso
+,Willamette Valley,BA,mape,0.3881893065794974,Lasso
+,Willamette Valley,BA,bias,4.8608137353457685,Lasso
+,Willamette Valley,BA,rel_bias,-0.020735178535801983,Lasso
+,Willamette Valley,QMD,rmse,8.77480697612984,Lasso
+,Willamette Valley,QMD,nrmse,0.4663701858125646,Lasso
+,Willamette Valley,QMD,mae,4.964182151729977,Lasso
+,Willamette Valley,QMD,mape,0.26384016865643123,Lasso
+,Willamette Valley,QMD,bias,-1.7043407227366247,Lasso
+,Willamette Valley,QMD,rel_bias,0.09058361075210493,Lasso
+,Willamette Valley,GS_TPA,rmse,78.5602525611033,Lasso
+,Willamette Valley,GS_TPA,nrmse,0.5396493831981397,Lasso
+,Willamette Valley,GS_TPA,mae,56.17579186544404,Lasso
+,Willamette Valley,GS_TPA,mape,0.3858851065591356,Lasso
+,Willamette Valley,GS_TPA,bias,-12.718241759846345,Lasso
+,Willamette Valley,GS_TPA,rel_bias,0.087364679940758,Lasso
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,rmse,43.353643801510984,Lasso
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,nrmse,0.604405399889853,Lasso
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,mae,35.45576800152976,Lasso
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,mape,0.49429888143841716,Lasso
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,bias,5.925143944735021,Lasso
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.08260410616737358,Lasso
+,Blue Mountains,LIDAR_COVER,rmse,10.246869723259131,kNN
+,Blue Mountains,LIDAR_COVER,nrmse,0.30699752781170897,kNN
+,Blue Mountains,LIDAR_COVER,mae,8.327852726341463,kNN
+,Blue Mountains,LIDAR_COVER,mape,0.24950353308031176,kNN
+,Blue Mountains,LIDAR_COVER,bias,3.8069339151219506,kNN
+,Blue Mountains,LIDAR_COVER,rel_bias,-0.11405622712584511,kNN
+,Blue Mountains,TOPHT,rmse,19.443826846560434,kNN
+,Blue Mountains,TOPHT,nrmse,0.3238531445844076,kNN
+,Blue Mountains,TOPHT,mae,15.882195121951222,kNN
+,Blue Mountains,TOPHT,mape,0.26453119922001955,kNN
+,Blue Mountains,TOPHT,bias,4.108048780487804,kNN
+,Blue Mountains,TOPHT,rel_bias,-0.06842297692557685,kNN
+,Blue Mountains,BA,rmse,36.16835751545615,kNN
+,Blue Mountains,BA,nrmse,0.5420758364284626,kNN
+,Blue Mountains,BA,mae,28.416341463414636,kNN
+,Blue Mountains,BA,mape,0.4258919432665595,kNN
+,Blue Mountains,BA,bias,12.102682926829267,kNN
+,Blue Mountains,BA,rel_bias,-0.18138982307354876,kNN
+,Blue Mountains,QMD,rmse,3.868871346477019,kNN
+,Blue Mountains,QMD,nrmse,0.2895723358793131,kNN
+,Blue Mountains,QMD,mae,3.102645184551042,kNN
+,Blue Mountains,QMD,mape,0.23222281979297765,kNN
+,Blue Mountains,QMD,bias,-0.9311139685843143,kNN
+,Blue Mountains,QMD,rel_bias,0.06969082781683518,kNN
+,Blue Mountains,GS_TPA,rmse,54.50830648267983,kNN
+,Blue Mountains,GS_TPA,nrmse,0.713505065382119,kNN
+,Blue Mountains,GS_TPA,mae,40.24463414634147,kNN
+,Blue Mountains,GS_TPA,mape,0.5267958623331844,kNN
+,Blue Mountains,GS_TPA,bias,13.15341463414634,kNN
+,Blue Mountains,GS_TPA,rel_bias,-0.17217610625119723,kNN
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,rmse,10.036597664693291,kNN
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,nrmse,0.6932286122850824,kNN
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,mae,7.206341463414633,kNN
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,mape,0.4977425876010781,kNN
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,bias,2.0941463414634147,kNN
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.14464285714285716,kNN
+,Cascades,LIDAR_COVER,rmse,15.477189770595677,kNN
+,Cascades,LIDAR_COVER,nrmse,0.19415389681794895,kNN
+,Cascades,LIDAR_COVER,mae,10.472993124686193,kNN
+,Cascades,LIDAR_COVER,mape,0.13137865831228046,kNN
+,Cascades,LIDAR_COVER,bias,-0.31654896510460284,kNN
+,Cascades,LIDAR_COVER,rel_bias,0.00397095441870919,kNN
+,Cascades,TOPHT,rmse,27.849943698627765,kNN
+,Cascades,TOPHT,nrmse,0.27077057968660395,kNN
+,Cascades,TOPHT,mae,22.137907949790794,kNN
+,Cascades,TOPHT,mape,0.2152354142428261,kNN
+,Cascades,TOPHT,bias,3.8403347280334725,kNN
+,Cascades,TOPHT,rel_bias,-0.03733758573276598,kNN
+,Cascades,BA,rmse,93.01737667778391,kNN
+,Cascades,BA,nrmse,0.43856213185753595,kNN
+,Cascades,BA,mae,73.12167364016736,kNN
+,Cascades,BA,mape,0.3447570574658223,kNN
+,Cascades,BA,bias,9.003096234309623,kNN
+,Cascades,BA,rel_bias,-0.0424481663411651,kNN
+,Cascades,QMD,rmse,6.197838533712797,kNN
+,Cascades,QMD,nrmse,0.4522607629048285,kNN
+,Cascades,QMD,mae,4.534549046449332,kNN
+,Cascades,QMD,mape,0.33088932537066473,kNN
+,Cascades,QMD,bias,0.6136609399389577,kNN
+,Cascades,QMD,rel_bias,-0.04477928286644646,kNN
+,Cascades,GS_TPA,rmse,108.48033984962996,kNN
+,Cascades,GS_TPA,nrmse,0.5850068418833895,kNN
+,Cascades,GS_TPA,mae,79.06510460251046,kNN
+,Cascades,GS_TPA,mape,0.4263779705226676,kNN
+,Cascades,GS_TPA,bias,-13.69899581589958,kNN
+,Cascades,GS_TPA,rel_bias,0.07387519517676472,kNN
+,Cascades,ABOVEGROUND_LIVE_CARBON,rmse,34.40118718760034,kNN
+,Cascades,ABOVEGROUND_LIVE_CARBON,nrmse,0.5647130883028478,kNN
+,Cascades,ABOVEGROUND_LIVE_CARBON,mae,25.559456066945607,kNN
+,Cascades,ABOVEGROUND_LIVE_CARBON,mape,0.4195715482780884,kNN
+,Cascades,ABOVEGROUND_LIVE_CARBON,bias,1.6744351464435148,kNN
+,Cascades,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.027486709617154555,kNN
+,Coast Range,LIDAR_COVER,rmse,15.95341372384043,kNN
+,Coast Range,LIDAR_COVER,nrmse,0.1949373471943777,kNN
+,Coast Range,LIDAR_COVER,mae,11.341039263338264,kNN
+,Coast Range,LIDAR_COVER,mape,0.13857799632681006,kNN
+,Coast Range,LIDAR_COVER,bias,-0.12676836674706723,kNN
+,Coast Range,LIDAR_COVER,rel_bias,0.0015490032133315984,kNN
+,Coast Range,TOPHT,rmse,28.821965411247664,kNN
+,Coast Range,TOPHT,nrmse,0.26204469422737714,kNN
+,Coast Range,TOPHT,mae,21.894712686461325,kNN
+,Coast Range,TOPHT,mape,0.19906322172189678,kNN
+,Coast Range,TOPHT,bias,-6.0007734591078865,kNN
+,Coast Range,TOPHT,rel_bias,0.0545580713800328,kNN
+,Coast Range,BA,rmse,115.21832355158813,kNN
+,Coast Range,BA,nrmse,0.47433324793931886,kNN
+,Coast Range,BA,mae,84.50572099552258,kNN
+,Coast Range,BA,mape,0.3478949517201825,kNN
+,Coast Range,BA,bias,-32.10141082239221,kNN
+,Coast Range,BA,rel_bias,0.1321557716642356,kNN
+,Coast Range,QMD,rmse,8.515072382655589,kNN
+,Coast Range,QMD,nrmse,0.5214212174357327,kNN
+,Coast Range,QMD,mae,5.793980841624177,kNN
+,Coast Range,QMD,mape,0.3547949340269495,kNN
+,Coast Range,QMD,bias,-3.4080818960585684,kNN
+,Coast Range,QMD,rel_bias,0.20869419912192605,kNN
+,Coast Range,GS_TPA,rmse,115.79861500905585,kNN
+,Coast Range,GS_TPA,nrmse,0.6777687047219537,kNN
+,Coast Range,GS_TPA,mae,87.44397520155883,kNN
+,Coast Range,GS_TPA,mape,0.5118091421340774,kNN
+,Coast Range,GS_TPA,bias,20.82085984852546,kNN
+,Coast Range,GS_TPA,rel_bias,-0.12186438680314826,kNN
+,Coast Range,ABOVEGROUND_LIVE_CARBON,rmse,46.735935031706916,kNN
+,Coast Range,ABOVEGROUND_LIVE_CARBON,nrmse,0.635882546933407,kNN
+,Coast Range,ABOVEGROUND_LIVE_CARBON,mae,31.262748121165778,kNN
+,Coast Range,ABOVEGROUND_LIVE_CARBON,mape,0.42535654600550377,kNN
+,Coast Range,ABOVEGROUND_LIVE_CARBON,bias,-15.068581019901922,kNN
+,Coast Range,ABOVEGROUND_LIVE_CARBON,rel_bias,0.20502099018896372,kNN
+,Eastern Cascades,LIDAR_COVER,rmse,15.599730520775736,kNN
+,Eastern Cascades,LIDAR_COVER,nrmse,0.3169281377732265,kNN
+,Eastern Cascades,LIDAR_COVER,mae,12.091239415948364,kNN
+,Eastern Cascades,LIDAR_COVER,mape,0.24564873004461302,kNN
+,Eastern Cascades,LIDAR_COVER,bias,4.795077674321367,kNN
+,Eastern Cascades,LIDAR_COVER,rel_bias,-0.0974180314061652,kNN
+,Eastern Cascades,TOPHT,rmse,21.935943995836585,kNN
+,Eastern Cascades,TOPHT,nrmse,0.3060011628539765,kNN
+,Eastern Cascades,TOPHT,mae,17.733722257831033,kNN
+,Eastern Cascades,TOPHT,mape,0.24738117646797841,kNN
+,Eastern Cascades,TOPHT,bias,7.114557232578542,kNN
+,Eastern Cascades,TOPHT,rel_bias,-0.09924636873495878,kNN
+,Eastern Cascades,BA,rmse,69.02836623222016,kNN
+,Eastern Cascades,BA,nrmse,0.6152703254547208,kNN
+,Eastern Cascades,BA,mae,50.194566692036254,kNN
+,Eastern Cascades,BA,mape,0.4473990776599398,kNN
+,Eastern Cascades,BA,bias,10.87278145753057,kNN
+,Eastern Cascades,BA,rel_bias,-0.09691232968585538,kNN
+,Eastern Cascades,QMD,rmse,5.494763296039133,kNN
+,Eastern Cascades,QMD,nrmse,0.4486972597449172,kNN
+,Eastern Cascades,QMD,mae,4.233436914907234,kNN
+,Eastern Cascades,QMD,mape,0.3456985206971732,kNN
+,Eastern Cascades,QMD,bias,0.4000853896426249,kNN
+,Eastern Cascades,QMD,rel_bias,-0.03267060077474624,kNN
+,Eastern Cascades,GS_TPA,rmse,78.5407597258531,kNN
+,Eastern Cascades,GS_TPA,nrmse,0.6927725576974686,kNN
+,Eastern Cascades,GS_TPA,mae,59.5047340501528,kNN
+,Eastern Cascades,GS_TPA,mape,0.5248643754774202,kNN
+,Eastern Cascades,GS_TPA,bias,8.92308606056289,kNN
+,Eastern Cascades,GS_TPA,rel_bias,-0.07870651078889392,kNN
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,rmse,22.770605566339306,kNN
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,nrmse,0.8280220205941565,kNN
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,mae,15.211010172539334,kNN
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,mape,0.5531276426377939,kNN
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,bias,3.298800182325407,kNN
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.11995637026637844,kNN
+,Klamath Mountains,LIDAR_COVER,rmse,16.80976919577433,kNN
+,Klamath Mountains,LIDAR_COVER,nrmse,0.23236941287316917,kNN
+,Klamath Mountains,LIDAR_COVER,mae,11.599420659043927,kNN
+,Klamath Mountains,LIDAR_COVER,mape,0.16034429365565045,kNN
+,Klamath Mountains,LIDAR_COVER,bias,6.2274564590439265,kNN
+,Klamath Mountains,LIDAR_COVER,rel_bias,-0.08608508446653922,kNN
+,Klamath Mountains,TOPHT,rmse,32.32243902615462,kNN
+,Klamath Mountains,TOPHT,nrmse,0.339506674170064,kNN
+,Klamath Mountains,TOPHT,mae,26.698708010335917,kNN
+,Klamath Mountains,TOPHT,mape,0.2804364346976441,kNN
+,Klamath Mountains,TOPHT,bias,13.3046511627907,kNN
+,Klamath Mountains,TOPHT,rel_bias,-0.1397486700683965,kNN
+,Klamath Mountains,BA,rmse,89.6502943541056,kNN
+,Klamath Mountains,BA,nrmse,0.4516358228981888,kNN
+,Klamath Mountains,BA,mae,71.38746770025838,kNN
+,Klamath Mountains,BA,mape,0.359632257224681,kNN
+,Klamath Mountains,BA,bias,21.987726098191214,kNN
+,Klamath Mountains,BA,rel_bias,-0.11076868003124186,kNN
+,Klamath Mountains,QMD,rmse,8.140802392227918,kNN
+,Klamath Mountains,QMD,nrmse,0.7247461666005353,kNN
+,Klamath Mountains,QMD,mae,6.866649009686113,kNN
+,Klamath Mountains,QMD,mape,0.6113129034937079,kNN
+,Klamath Mountains,QMD,bias,3.661946550662725,kNN
+,Klamath Mountains,QMD,rel_bias,-0.3260098448554209,kNN
+,Klamath Mountains,GS_TPA,rmse,105.48374248641622,kNN
+,Klamath Mountains,GS_TPA,nrmse,0.7201589193303886,kNN
+,Klamath Mountains,GS_TPA,mae,82.10788113695091,kNN
+,Klamath Mountains,GS_TPA,mape,0.5605671694451795,kNN
+,Klamath Mountains,GS_TPA,bias,16.301937984496124,kNN
+,Klamath Mountains,GS_TPA,rel_bias,-0.11129663932257211,kNN
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,rmse,35.93860954921252,kNN
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,nrmse,0.6311600061510821,kNN
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,mae,27.210335917312662,kNN
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,mape,0.477872572154656,kNN
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,bias,8.225581395348838,kNN
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.14445906698130334,kNN
+,North Cascades,LIDAR_COVER,rmse,16.760974550219093,kNN
+,North Cascades,LIDAR_COVER,nrmse,0.2440526228408766,kNN
+,North Cascades,LIDAR_COVER,mae,12.560181885053616,kNN
+,North Cascades,LIDAR_COVER,mape,0.18288586521156264,kNN
+,North Cascades,LIDAR_COVER,bias,-0.5809791893431638,kNN
+,North Cascades,LIDAR_COVER,rel_bias,0.00845950183566814,kNN
+,North Cascades,TOPHT,rmse,24.220314740163897,kNN
+,North Cascades,TOPHT,nrmse,0.28666732450399446,kNN
+,North Cascades,TOPHT,mae,19.485656836461125,kNN
+,North Cascades,TOPHT,mape,0.2306287581906741,kNN
+,North Cascades,TOPHT,bias,8.553753351206435,kNN
+,North Cascades,TOPHT,rel_bias,-0.10124069872598328,kNN
+,North Cascades,BA,rmse,82.21891401852776,kNN
+,North Cascades,BA,nrmse,0.47192261122130436,kNN
+,North Cascades,BA,mae,62.77915549597855,kNN
+,North Cascades,BA,mape,0.3603416968661758,kNN
+,North Cascades,BA,bias,1.6402815013404817,kNN
+,North Cascades,BA,rel_bias,-0.009414937408151169,kNN
+,North Cascades,QMD,rmse,5.6919600945264595,kNN
+,North Cascades,QMD,nrmse,0.47551281745467777,kNN
+,North Cascades,QMD,mae,4.384945123612985,kNN
+,North Cascades,QMD,mape,0.36632330084647746,kNN
+,North Cascades,QMD,bias,1.5769581928600687,kNN
+,North Cascades,QMD,rel_bias,-0.13174088026657416,kNN
+,North Cascades,GS_TPA,rmse,122.9899233541057,kNN
+,North Cascades,GS_TPA,nrmse,0.6682190350178641,kNN
+,North Cascades,GS_TPA,mae,89.03847184986594,kNN
+,North Cascades,GS_TPA,mape,0.4837567185702008,kNN
+,North Cascades,GS_TPA,bias,-27.86769436997319,kNN
+,North Cascades,GS_TPA,rel_bias,0.15140853276623017,kNN
+,North Cascades,ABOVEGROUND_LIVE_CARBON,rmse,24.76914078285001,kNN
+,North Cascades,ABOVEGROUND_LIVE_CARBON,nrmse,0.5712185923088323,kNN
+,North Cascades,ABOVEGROUND_LIVE_CARBON,mae,18.217560321715816,kNN
+,North Cascades,ABOVEGROUND_LIVE_CARBON,mape,0.4201279831828861,kNN
+,North Cascades,ABOVEGROUND_LIVE_CARBON,bias,3.6796246648793565,kNN
+,North Cascades,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.08485841473970569,kNN
+,Northern Rockies,LIDAR_COVER,rmse,17.33271642704601,kNN
+,Northern Rockies,LIDAR_COVER,nrmse,0.3380382315971488,kNN
+,Northern Rockies,LIDAR_COVER,mae,13.385168674532713,kNN
+,Northern Rockies,LIDAR_COVER,mape,0.26104960335635796,kNN
+,Northern Rockies,LIDAR_COVER,bias,2.2135582483644862,kNN
+,Northern Rockies,LIDAR_COVER,rel_bias,-0.04317080470126513,kNN
+,Northern Rockies,TOPHT,rmse,23.233172234029404,kNN
+,Northern Rockies,TOPHT,nrmse,0.3246848336761113,kNN
+,Northern Rockies,TOPHT,mae,18.936682242990656,kNN
+,Northern Rockies,TOPHT,mape,0.26464115457454457,kNN
+,Northern Rockies,TOPHT,bias,2.2661214953271034,kNN
+,Northern Rockies,TOPHT,rel_bias,-0.03166916998628617,kNN
+,Northern Rockies,BA,rmse,59.104466954864684,kNN
+,Northern Rockies,BA,nrmse,0.6647233512897331,kNN
+,Northern Rockies,BA,mae,45.468224299065426,kNN
+,Northern Rockies,BA,mape,0.5113622030691614,kNN
+,Northern Rockies,BA,bias,27.344859813084117,kNN
+,Northern Rockies,BA,rel_bias,-0.3075362623502208,kNN
+,Northern Rockies,QMD,rmse,7.015320429777635,kNN
+,Northern Rockies,QMD,nrmse,0.6047313488307204,kNN
+,Northern Rockies,QMD,mae,4.973029410612222,kNN
+,Northern Rockies,QMD,mape,0.4286827399200774,kNN
+,Northern Rockies,QMD,bias,0.548275517911922,kNN
+,Northern Rockies,QMD,rel_bias,-0.047262188063482063,kNN
+,Northern Rockies,GS_TPA,rmse,92.99089324571258,kNN
+,Northern Rockies,GS_TPA,nrmse,0.8533469620318394,kNN
+,Northern Rockies,GS_TPA,mae,74.8838785046729,kNN
+,Northern Rockies,GS_TPA,mape,0.687184819897084,kNN
+,Northern Rockies,GS_TPA,bias,17.524532710280372,kNN
+,Northern Rockies,GS_TPA,rel_bias,-0.16081689536878216,kNN
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,rmse,16.576141930751294,kNN
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,nrmse,0.8622494830288715,kNN
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,mae,12.598130841121495,kNN
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,mape,0.6553232863393291,kNN
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,bias,7.5607476635514015,kNN
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.3932912007778318,kNN
+,Puget Lowland,LIDAR_COVER,rmse,20.208333328283693,kNN
+,Puget Lowland,LIDAR_COVER,nrmse,0.2581318936009716,kNN
+,Puget Lowland,LIDAR_COVER,mae,14.377725092460317,kNN
+,Puget Lowland,LIDAR_COVER,mape,0.18365440353245566,kNN
+,Puget Lowland,LIDAR_COVER,bias,-1.4447391448412688,kNN
+,Puget Lowland,LIDAR_COVER,rel_bias,0.018454428930829523,kNN
+,Puget Lowland,TOPHT,rmse,29.14256351003645,kNN
+,Puget Lowland,TOPHT,nrmse,0.2945346115556744,kNN
+,Puget Lowland,TOPHT,mae,22.076984126984126,kNN
+,Puget Lowland,TOPHT,mape,0.2231250501323494,kNN
+,Puget Lowland,TOPHT,bias,6.537301587301588,kNN
+,Puget Lowland,TOPHT,rel_bias,-0.06607042592444053,kNN
+,Puget Lowland,BA,rmse,91.52247447121026,kNN
+,Puget Lowland,BA,nrmse,0.48270539068114243,kNN
+,Puget Lowland,BA,mae,74.82460317460315,kNN
+,Puget Lowland,BA,mape,0.39463792381749674,kNN
+,Puget Lowland,BA,bias,26.06825396825397,kNN
+,Puget Lowland,BA,rel_bias,-0.13748848890749268,kNN
+,Puget Lowland,QMD,rmse,5.369449277679758,kNN
+,Puget Lowland,QMD,nrmse,0.39653020922022836,kNN
+,Puget Lowland,QMD,mae,3.836496165985786,kNN
+,Puget Lowland,QMD,mape,0.2833226553968538,kNN
+,Puget Lowland,QMD,bias,1.0736080336099214,kNN
+,Puget Lowland,QMD,rel_bias,-0.07928522948480501,kNN
+,Puget Lowland,GS_TPA,rmse,108.61249115146464,kNN
+,Puget Lowland,GS_TPA,nrmse,0.643977877986191,kNN
+,Puget Lowland,GS_TPA,mae,81.77103174603174,kNN
+,Puget Lowland,GS_TPA,mape,0.4848313020563738,kNN
+,Puget Lowland,GS_TPA,bias,-0.4083333333333346,kNN
+,Puget Lowland,GS_TPA,rel_bias,0.0024210625382335023,kNN
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,rmse,31.88030565864902,kNN
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,nrmse,0.612615298610611,kNN
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,mae,24.978571428571428,kNN
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,mape,0.47999084947384474,kNN
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,bias,9.083333333333334,kNN
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.1745462864114687,kNN
+,Willamette Valley,LIDAR_COVER,rmse,10.624595526519903,kNN
+,Willamette Valley,LIDAR_COVER,nrmse,0.1281461855119036,kNN
+,Willamette Valley,LIDAR_COVER,mae,7.265397578823531,kNN
+,Willamette Valley,LIDAR_COVER,mape,0.08762996987788545,kNN
+,Willamette Valley,LIDAR_COVER,bias,2.751525388235292,kNN
+,Willamette Valley,LIDAR_COVER,rel_bias,-0.033186908806212785,kNN
+,Willamette Valley,TOPHT,rmse,27.141838769042636,kNN
+,Willamette Valley,TOPHT,nrmse,0.2420835567018493,kNN
+,Willamette Valley,TOPHT,mae,21.995294117647056,kNN
+,Willamette Valley,TOPHT,mape,0.1961804826862539,kNN
+,Willamette Valley,TOPHT,bias,10.503529411764704,kNN
+,Willamette Valley,TOPHT,rel_bias,-0.09368310598111226,kNN
+,Willamette Valley,BA,rmse,119.19494931068374,kNN
+,Willamette Valley,BA,nrmse,0.5084598359634707,kNN
+,Willamette Valley,BA,mae,95.02470588235293,kNN
+,Willamette Valley,BA,mape,0.4053548128073873,kNN
+,Willamette Valley,BA,bias,24.797647058823532,kNN
+,Willamette Valley,BA,rel_bias,-0.10578139114724482,kNN
+,Willamette Valley,QMD,rmse,9.140495647130814,kNN
+,Willamette Valley,QMD,nrmse,0.4858060883809302,kNN
+,Willamette Valley,QMD,mae,5.243781429875362,kNN
+,Willamette Valley,QMD,mape,0.27870052600177697,kNN
+,Willamette Valley,QMD,bias,-2.8778538975137526,kNN
+,Willamette Valley,QMD,rel_bias,0.15295439097132824,kNN
+,Willamette Valley,GS_TPA,rmse,87.49311401476118,kNN
+,Willamette Valley,GS_TPA,nrmse,0.6010113699090593,kNN
+,Willamette Valley,GS_TPA,mae,68.46352941176471,kNN
+,Willamette Valley,GS_TPA,mape,0.4702925488928399,kNN
+,Willamette Valley,GS_TPA,bias,19.811764705882357,kNN
+,Willamette Valley,GS_TPA,rel_bias,-0.1360918053984161,kNN
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,rmse,43.462285882333056,kNN
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,nrmse,0.6059200098406281,kNN
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,mae,33.2635294117647,kNN
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,mape,0.46373626373626364,kNN
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,bias,8.650588235294117,kNN
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.12060029522716088,kNN
+,Blue Mountains,LIDAR_COVER,rmse,10.139821346786805,RF
+,Blue Mountains,LIDAR_COVER,nrmse,0.30379034475768174,RF
+,Blue Mountains,LIDAR_COVER,mae,8.071402943801107,RF
+,Blue Mountains,LIDAR_COVER,mape,0.24182026478726093,RF
+,Blue Mountains,LIDAR_COVER,bias,3.9883185023889456,RF
+,Blue Mountains,LIDAR_COVER,rel_bias,-0.11949053256526311,RF
+,Blue Mountains,TOPHT,rmse,19.96797082639746,RF
+,Blue Mountains,TOPHT,nrmse,0.3325831994971952,RF
+,Blue Mountains,TOPHT,mae,15.577582836473809,RF
+,Blue Mountains,TOPHT,mape,0.2594576276793249,RF
+,Blue Mountains,TOPHT,bias,6.499885198319523,RF
+,Blue Mountains,TOPHT,rel_bias,-0.10826100630935183,RF
+,Blue Mountains,BA,rmse,33.75400180320501,RF
+,Blue Mountains,BA,nrmse,0.5058905080901467,RF
+,Blue Mountains,BA,mae,27.519884357080116,RF
+,Blue Mountains,BA,mape,0.41245622848380054,RF
+,Blue Mountains,BA,bias,14.871390037318646,RF
+,Blue Mountains,BA,rel_bias,-0.222886018251961,RF
+,Blue Mountains,QMD,rmse,4.006476980969324,RF
+,Blue Mountains,QMD,nrmse,0.29987166646997127,RF
+,Blue Mountains,QMD,mae,3.2034377058487746,RF
+,Blue Mountains,QMD,mape,0.23976680955576135,RF
+,Blue Mountains,QMD,bias,0.5048436296244254,RF
+,Blue Mountains,QMD,rel_bias,-0.03778589050712545,RF
+,Blue Mountains,GS_TPA,rmse,49.84653115064436,RF
+,Blue Mountains,GS_TPA,nrmse,0.6524831674785834,RF
+,Blue Mountains,GS_TPA,mae,34.5324343730119,RF
+,Blue Mountains,GS_TPA,mape,0.45202407550395507,RF
+,Blue Mountains,GS_TPA,bias,6.489645593283155,RF
+,Blue Mountains,GS_TPA,rel_bias,-0.08494842900345105,RF
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,rmse,9.838335496905382,RF
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,nrmse,0.6795346283239903,RF
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,mae,7.590885540854809,RF
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,mape,0.5243030781250795,RF
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,bias,3.6751653752209847,RF
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.2538439696496974,RF
+,Cascades,LIDAR_COVER,rmse,15.147931447364261,RF
+,Cascades,LIDAR_COVER,nrmse,0.19002350961829242,RF
+,Cascades,LIDAR_COVER,mae,11.105849784844013,RF
+,Cascades,LIDAR_COVER,mape,0.13931754053302253,RF
+,Cascades,LIDAR_COVER,bias,-3.5207960545693857,RF
+,Cascades,LIDAR_COVER,rel_bias,0.04416669201760373,RF
+,Cascades,TOPHT,rmse,25.580650589759824,RF
+,Cascades,TOPHT,nrmse,0.24870741800785112,RF
+,Cascades,TOPHT,mae,19.52407446979792,RF
+,Cascades,TOPHT,mape,0.18982246496577618,RF
+,Cascades,TOPHT,bias,-2.907167641969403,RF
+,Cascades,TOPHT,rel_bias,0.028264885422406752,RF
+,Cascades,BA,rmse,89.30572261812361,RF
+,Cascades,BA,nrmse,0.4210622734949309,RF
+,Cascades,BA,mae,67.80869635262535,RF
+,Cascades,BA,mape,0.319707214856236,RF
+,Cascades,BA,bias,-9.568374804021063,RF
+,Cascades,BA,rel_bias,0.04511336486084382,RF
+,Cascades,QMD,rmse,5.8280279663219074,RF
+,Cascades,QMD,nrmse,0.4252754181868724,RF
+,Cascades,QMD,mae,4.096546052634079,RF
+,Cascades,QMD,mape,0.2989279299487,RF
+,Cascades,QMD,bias,-0.4445027853173701,RF
+,Cascades,QMD,rel_bias,0.032435689911484,RF
+,Cascades,GS_TPA,rmse,97.16778549286173,RF
+,Cascades,GS_TPA,nrmse,0.5240011176474533,RF
+,Cascades,GS_TPA,mae,70.64226995302054,RF
+,Cascades,GS_TPA,mape,0.38095576863028585,RF
+,Cascades,GS_TPA,bias,-2.436238490997473,RF
+,Cascades,GS_TPA,rel_bias,0.013138013649927255,RF
+,Cascades,ABOVEGROUND_LIVE_CARBON,rmse,33.57727128421767,RF
+,Cascades,ABOVEGROUND_LIVE_CARBON,nrmse,0.5511880872101889,RF
+,Cascades,ABOVEGROUND_LIVE_CARBON,mae,23.343526501510087,RF
+,Cascades,ABOVEGROUND_LIVE_CARBON,mape,0.3831959307293509,RF
+,Cascades,ABOVEGROUND_LIVE_CARBON,bias,-6.459949216862486,RF
+,Cascades,ABOVEGROUND_LIVE_CARBON,rel_bias,0.10604337148715842,RF
+,Coast Range,LIDAR_COVER,rmse,16.167278282178156,RF
+,Coast Range,LIDAR_COVER,nrmse,0.19755059288479393,RF
+,Coast Range,LIDAR_COVER,mae,12.300210569864348,RF
+,Coast Range,LIDAR_COVER,mape,0.15029826593404427,RF
+,Coast Range,LIDAR_COVER,bias,-2.5336486605945474,RF
+,Coast Range,LIDAR_COVER,rel_bias,0.030959063506314756,RF
+,Coast Range,TOPHT,rmse,29.336321423583588,RF
+,Coast Range,TOPHT,nrmse,0.26672113672716524,RF
+,Coast Range,TOPHT,mae,21.968040570533216,RF
+,Coast Range,TOPHT,mape,0.19972990710180707,RF
+,Coast Range,TOPHT,bias,-9.305489189324733,RF
+,Coast Range,TOPHT,rel_bias,0.08460401761155281,RF
+,Coast Range,BA,rmse,115.19628460377058,RF
+,Coast Range,BA,nrmse,0.4742425175296303,RF
+,Coast Range,BA,mae,83.72436464725803,RF
+,Coast Range,BA,mape,0.34467824726688095,RF
+,Coast Range,BA,bias,-36.9361588950144,RF
+,Coast Range,BA,rel_bias,0.1520595654842216,RF
+,Coast Range,QMD,rmse,8.36649398176807,RF
+,Coast Range,QMD,nrmse,0.5123230057947809,RF
+,Coast Range,QMD,mae,5.588137428846214,RF
+,Coast Range,QMD,mape,0.34219009427122,RF
+,Coast Range,QMD,bias,-3.573069597480224,RF
+,Coast Range,QMD,rel_bias,0.21879723574583473,RF
+,Coast Range,GS_TPA,rmse,106.19731437135447,RF
+,Coast Range,GS_TPA,nrmse,0.6215723409195711,RF
+,Coast Range,GS_TPA,mae,80.93902691515396,RF
+,Coast Range,GS_TPA,mape,0.4737357128964726,RF
+,Coast Range,GS_TPA,bias,24.565948436652594,RF
+,Coast Range,GS_TPA,rel_bias,-0.1437843712627672,RF
+,Coast Range,ABOVEGROUND_LIVE_CARBON,rmse,46.834992979364436,RF
+,Coast Range,ABOVEGROUND_LIVE_CARBON,nrmse,0.6372303154119391,RF
+,Coast Range,ABOVEGROUND_LIVE_CARBON,mae,31.10014583929823,RF
+,Coast Range,ABOVEGROUND_LIVE_CARBON,mape,0.42314420226912675,RF
+,Coast Range,ABOVEGROUND_LIVE_CARBON,bias,-16.173506921662774,RF
+,Coast Range,ABOVEGROUND_LIVE_CARBON,rel_bias,0.22005445632391357,RF
+,Eastern Cascades,LIDAR_COVER,rmse,14.968598854299294,RF
+,Eastern Cascades,LIDAR_COVER,nrmse,0.30410590449940805,RF
+,Eastern Cascades,LIDAR_COVER,mae,11.592466725528126,RF
+,Eastern Cascades,LIDAR_COVER,mape,0.23551553577330794,RF
+,Eastern Cascades,LIDAR_COVER,bias,2.397426123436786,RF
+,Eastern Cascades,LIDAR_COVER,rel_bias,-0.048706725782076035,RF
+,Eastern Cascades,TOPHT,rmse,19.778857637324876,RF
+,Eastern Cascades,TOPHT,nrmse,0.27591032499414636,RF
+,Eastern Cascades,TOPHT,mae,15.537863339940191,RF
+,Eastern Cascades,TOPHT,mape,0.21674947069477782,RF
+,Eastern Cascades,TOPHT,bias,3.8764519101935555,RF
+,Eastern Cascades,TOPHT,rel_bias,-0.054075575343002585,RF
+,Eastern Cascades,BA,rmse,61.10043413112113,RF
+,Eastern Cascades,BA,nrmse,0.5446063125239132,RF
+,Eastern Cascades,BA,mae,44.14659274137103,RF
+,Eastern Cascades,BA,mape,0.39349168995719336,RF
+,Eastern Cascades,BA,bias,-0.48988622067627713,RF
+,Eastern Cascades,BA,rel_bias,0.004366501351303702,RF
+,Eastern Cascades,QMD,rmse,5.3592381074876965,RF
+,Eastern Cascades,QMD,nrmse,0.4376303989079314,RF
+,Eastern Cascades,QMD,mae,4.044828814873222,RF
+,Eastern Cascades,QMD,mape,0.3302969586841272,RF
+,Eastern Cascades,QMD,bias,-0.24655049559078857,RF
+,Eastern Cascades,QMD,rel_bias,0.020133084138507402,RF
+,Eastern Cascades,GS_TPA,rmse,81.23642348250868,RF
+,Eastern Cascades,GS_TPA,nrmse,0.7165497898239352,RF
+,Eastern Cascades,GS_TPA,mae,61.001913531500364,RF
+,Eastern Cascades,GS_TPA,mape,0.5380703192733001,RF
+,Eastern Cascades,GS_TPA,bias,13.073336326078152,RF
+,Eastern Cascades,GS_TPA,rel_bias,-0.11531399334395748,RF
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,rmse,19.588334203762713,RF
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,nrmse,0.7123030619550077,RF
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,mae,12.701300586622024,RF
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,mape,0.4618654758771645,RF
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,bias,-0.6495492240710761,RF
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,rel_bias,0.023619971784402765,RF
+,Klamath Mountains,LIDAR_COVER,rmse,15.070652874200263,RF
+,Klamath Mountains,LIDAR_COVER,nrmse,0.20832878305512864,RF
+,Klamath Mountains,LIDAR_COVER,mae,10.62551291444923,RF
+,Klamath Mountains,LIDAR_COVER,mape,0.14688150495412614,RF
+,Klamath Mountains,LIDAR_COVER,bias,2.3498070042072365,RF
+,Klamath Mountains,LIDAR_COVER,rel_bias,-0.03248249678943578,RF
+,Klamath Mountains,TOPHT,rmse,29.69330999667536,RF
+,Klamath Mountains,TOPHT,nrmse,0.31189097190080783,RF
+,Klamath Mountains,TOPHT,mae,24.247708249428307,RF
+,Klamath Mountains,TOPHT,mape,0.25469175693542384,RF
+,Klamath Mountains,TOPHT,bias,8.031683327326071,RF
+,Klamath Mountains,TOPHT,rel_bias,-0.08436275778078356,RF
+,Klamath Mountains,BA,rmse,82.09341544247133,RF
+,Klamath Mountains,BA,nrmse,0.4135661517343973,RF
+,Klamath Mountains,BA,mae,64.36181740357839,RF
+,Klamath Mountains,BA,mape,0.32423878332706113,RF
+,Klamath Mountains,BA,bias,2.7334580131724904,RF
+,Klamath Mountains,BA,rel_bias,-0.013770479707078283,RF
+,Klamath Mountains,QMD,rmse,8.347897630422809,RF
+,Klamath Mountains,QMD,nrmse,0.7431831059550963,RF
+,Klamath Mountains,QMD,mae,6.9236502660022845,RF
+,Klamath Mountains,QMD,mape,0.6163875189942636,RF
+,Klamath Mountains,QMD,bias,4.1621164294972175,RF
+,Klamath Mountains,QMD,rel_bias,-0.37053815851163124,RF
+,Klamath Mountains,GS_TPA,rmse,98.05242481362987,RF
+,Klamath Mountains,GS_TPA,nrmse,0.669423805290196,RF
+,Klamath Mountains,GS_TPA,mae,74.54029274102078,RF
+,Klamath Mountains,GS_TPA,mape,0.5089017075200677,RF
+,Klamath Mountains,GS_TPA,bias,4.938606062371001,RF
+,Klamath Mountains,GS_TPA,rel_bias,-0.03371686594579831,RF
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,rmse,33.194261630093166,RF
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,nrmse,0.5829632987314419,RF
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,mae,24.511110978095445,RF
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,mape,0.43046832222376735,RF
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,bias,1.9198576766059214,RF
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.033716868798624594,RF
+,North Cascades,LIDAR_COVER,rmse,16.443819921821397,RF
+,North Cascades,LIDAR_COVER,nrmse,0.23943460861535118,RF
+,North Cascades,LIDAR_COVER,mae,12.637809948106145,RF
+,North Cascades,LIDAR_COVER,mape,0.18401618924715274,RF
+,North Cascades,LIDAR_COVER,bias,-1.886620069395851,RF
+,North Cascades,LIDAR_COVER,rel_bias,0.027470632740402047,RF
+,North Cascades,TOPHT,rmse,21.541234534198164,RF
+,North Cascades,TOPHT,nrmse,0.2549582091182127,RF
+,North Cascades,TOPHT,mae,17.186824438618313,RF
+,North Cascades,TOPHT,mape,0.2034201880278802,RF
+,North Cascades,TOPHT,bias,4.728559250386374,RF
+,North Cascades,TOPHT,rel_bias,-0.05596638374063105,RF
+,North Cascades,BA,rmse,77.89289195405058,RF
+,North Cascades,BA,nrmse,0.4470919788389673,RF
+,North Cascades,BA,mae,57.69736955245279,RF
+,North Cascades,BA,mape,0.33117310809600586,RF
+,North Cascades,BA,bias,-9.405810248324858,RF
+,North Cascades,BA,rel_bias,0.05398775435104021,RF
+,North Cascades,QMD,rmse,5.268923579163978,RF
+,North Cascades,QMD,nrmse,0.44017186601342245,RF
+,North Cascades,QMD,mae,3.9967433379286974,RF
+,North Cascades,QMD,mape,0.3338924823259499,RF
+,North Cascades,QMD,bias,1.0778543922056367,RF
+,North Cascades,QMD,rel_bias,-0.09004518133155352,RF
+,North Cascades,GS_TPA,rmse,108.60920767198137,RF
+,North Cascades,GS_TPA,nrmse,0.5900868783833051,RF
+,North Cascades,GS_TPA,mae,80.70397559009312,RF
+,North Cascades,GS_TPA,mape,0.4384743987168038,RF
+,North Cascades,GS_TPA,bias,-18.126193453171844,RF
+,North Cascades,GS_TPA,rel_bias,0.09848178751158868,RF
+,North Cascades,ABOVEGROUND_LIVE_CARBON,rmse,23.27033347123454,RF
+,North Cascades,ABOVEGROUND_LIVE_CARBON,nrmse,0.5366535417812838,RF
+,North Cascades,ABOVEGROUND_LIVE_CARBON,mae,16.704577059510637,RF
+,North Cascades,ABOVEGROUND_LIVE_CARBON,mape,0.38523601107935374,RF
+,North Cascades,ABOVEGROUND_LIVE_CARBON,bias,-0.8335220513994733,RF
+,North Cascades,ABOVEGROUND_LIVE_CARBON,rel_bias,0.019222438801286233,RF
+,Northern Rockies,LIDAR_COVER,rmse,17.56216510936863,RF
+,Northern Rockies,LIDAR_COVER,nrmse,0.3425131462558578,RF
+,Northern Rockies,LIDAR_COVER,mae,13.768423425877616,RF
+,Northern Rockies,LIDAR_COVER,mape,0.26852418236658615,RF
+,Northern Rockies,LIDAR_COVER,bias,1.809665882950799,RF
+,Northern Rockies,LIDAR_COVER,rel_bias,-0.035293732371910636,RF
+,Northern Rockies,TOPHT,rmse,21.16604126027552,RF
+,Northern Rockies,TOPHT,nrmse,0.2957965669495828,RF
+,Northern Rockies,TOPHT,mae,16.533307322020587,RF
+,Northern Rockies,TOPHT,mape,0.23105386057026092,RF
+,Northern Rockies,TOPHT,bias,0.368624338357516,RF
+,Northern Rockies,TOPHT,rel_bias,-0.005151544988474396,RF
+,Northern Rockies,BA,rmse,49.21892460402123,RF
+,Northern Rockies,BA,nrmse,0.553544769038288,RF
+,Northern Rockies,BA,mae,37.782772504516444,RF
+,Northern Rockies,BA,mape,0.42492712402598903,RF
+,Northern Rockies,BA,bias,14.773922968873176,RF
+,Northern Rockies,BA,rel_bias,-0.16615616540565797,RF
+,Northern Rockies,QMD,rmse,6.863403631130841,RF
+,Northern Rockies,QMD,nrmse,0.5916358884771535,RF
+,Northern Rockies,QMD,mae,4.721423048906985,RF
+,Northern Rockies,QMD,mape,0.4069938867862198,RF
+,Northern Rockies,QMD,bias,-0.028246748811895307,RF
+,Northern Rockies,QMD,rel_bias,0.0024349129423360404,RF
+,Northern Rockies,GS_TPA,rmse,82.43542429095959,RF
+,Northern Rockies,GS_TPA,nrmse,0.7564828815722707,RF
+,Northern Rockies,GS_TPA,mae,66.02720436112007,RF
+,Northern Rockies,GS_TPA,mape,0.6059100228679115,RF
+,Northern Rockies,GS_TPA,bias,19.82145562393455,RF
+,Northern Rockies,GS_TPA,rel_bias,-0.18189500443919357,RF
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,rmse,12.086938134832916,RF
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,nrmse,0.6287323191186787,RF
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,mae,9.40555559301787,RF
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,mape,0.4892534994909636,RF
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,bias,3.7679179258325988,RF
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.19599767528638215,RF
+,Puget Lowland,LIDAR_COVER,rmse,19.355563846278425,RF
+,Puget Lowland,LIDAR_COVER,nrmse,0.24723901106488197,RF
+,Puget Lowland,LIDAR_COVER,mae,13.509394168187896,RF
+,Puget Lowland,LIDAR_COVER,mape,0.17256274633769786,RF
+,Puget Lowland,LIDAR_COVER,bias,-2.9684802412563878,RF
+,Puget Lowland,LIDAR_COVER,rel_bias,0.03791799221364384,RF
+,Puget Lowland,TOPHT,rmse,26.42998748949066,RF
+,Puget Lowland,TOPHT,nrmse,0.2671194692929994,RF
+,Puget Lowland,TOPHT,mae,19.72376172196352,RF
+,Puget Lowland,TOPHT,mape,0.19934178045780088,RF
+,Puget Lowland,TOPHT,bias,3.295859281141896,RF
+,Puget Lowland,TOPHT,rel_bias,-0.03331020048318593,RF
+,Puget Lowland,BA,rmse,83.28390235993872,RF
+,Puget Lowland,BA,nrmse,0.4392537336689945,RF
+,Puget Lowland,BA,mae,67.13466880360164,RF
+,Puget Lowland,BA,mape,0.3540798773233071,RF
+,Puget Lowland,BA,bias,9.60008371888694,RF
+,Puget Lowland,BA,rel_bias,-0.050632505172865404,RF
+,Puget Lowland,QMD,rmse,5.401961620375963,RF
+,Puget Lowland,QMD,nrmse,0.39893122380940743,RF
+,Puget Lowland,QMD,mae,3.851588185130844,RF
+,Puget Lowland,QMD,mape,0.2844371908360882,RF
+,Puget Lowland,QMD,bias,1.353918431350386,RF
+,Puget Lowland,QMD,rel_bias,-0.09998596338030473,RF
+,Puget Lowland,GS_TPA,rmse,103.20403900001594,RF
+,Puget Lowland,GS_TPA,nrmse,0.6119104472261074,RF
+,Puget Lowland,GS_TPA,mae,75.58136155320389,RF
+,Puget Lowland,GS_TPA,mape,0.44813192582484074,RF
+,Puget Lowland,GS_TPA,bias,-10.538851431660468,RF
+,Puget Lowland,GS_TPA,rel_bias,0.06248624913600391,RF
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,rmse,28.4372345062073,RF
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,nrmse,0.5464528820774928,RF
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,mae,22.71830401402447,RF
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,mape,0.4365573136750165,RF
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,bias,3.93597502097138,RF
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.07563410898923195,RF
+,Willamette Valley,LIDAR_COVER,rmse,9.829629529372266,RF
+,Willamette Valley,LIDAR_COVER,nrmse,0.1185578807249726,RF
+,Willamette Valley,LIDAR_COVER,mae,7.255445025898341,RF
+,Willamette Valley,LIDAR_COVER,mape,0.0875099293840817,RF
+,Willamette Valley,LIDAR_COVER,bias,-1.2578610437244464,RF
+,Willamette Valley,LIDAR_COVER,rel_bias,0.015171409984969807,RF
+,Willamette Valley,TOPHT,rmse,24.400094404328428,RF
+,Willamette Valley,TOPHT,nrmse,0.2176293834593826,RF
+,Willamette Valley,TOPHT,mae,20.191478696493963,RF
+,Willamette Valley,TOPHT,mape,0.1800918876392431,RF
+,Willamette Valley,TOPHT,bias,6.372313901767441,RF
+,Willamette Valley,TOPHT,rel_bias,-0.05683595820044412,RF
+,Willamette Valley,BA,rmse,111.33588238290238,RF
+,Willamette Valley,BA,nrmse,0.4749347587346533,RF
+,Willamette Valley,BA,mae,82.11825168778408,RF
+,Willamette Valley,BA,mape,0.3502986747697303,RF
+,Willamette Valley,BA,bias,-0.5438251042671401,RF
+,Willamette Valley,BA,rel_bias,0.002319840101510936,RF
+,Willamette Valley,QMD,rmse,8.426812604288099,RF
+,Willamette Valley,QMD,nrmse,0.44787471345641483,RF
+,Willamette Valley,QMD,mae,4.652996845486299,RF
+,Willamette Valley,QMD,mape,0.24730105281151343,RF
+,Willamette Valley,QMD,bias,-1.4246959563194614,RF
+,Willamette Valley,QMD,rel_bias,0.07572083576112673,RF
+,Willamette Valley,GS_TPA,rmse,80.74214405971689,RF
+,Willamette Valley,GS_TPA,nrmse,0.5546373238302842,RF
+,Willamette Valley,GS_TPA,mae,58.497210908924366,RF
+,Willamette Valley,GS_TPA,mape,0.40183149565690734,RF
+,Willamette Valley,GS_TPA,bias,-8.629360241523917,RF
+,Willamette Valley,GS_TPA,rel_bias,0.05927716344993802,RF
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,rmse,40.20036882049156,RF
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,nrmse,0.5604447022702612,RF
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,mae,29.58228724112775,RF
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,mape,0.4124150263237426,RF
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,bias,0.3429155675652366,RF
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.004780682834680188,RF
+,Blue Mountains,LIDAR_COVER,rmse,10.548875066423332,GBM
+,Blue Mountains,LIDAR_COVER,nrmse,0.31604564652906564,GBM
+,Blue Mountains,LIDAR_COVER,mae,8.692735992624204,GBM
+,Blue Mountains,LIDAR_COVER,mape,0.26043548241840037,GBM
+,Blue Mountains,LIDAR_COVER,bias,4.396337079895459,GBM
+,Blue Mountains,LIDAR_COVER,rel_bias,-0.13171482134600396,GBM
+,Blue Mountains,TOPHT,rmse,20.46424069312267,GBM
+,Blue Mountains,TOPHT,nrmse,0.34084898782012896,GBM
+,Blue Mountains,TOPHT,mae,15.962340290106361,GBM
+,Blue Mountains,TOPHT,mape,0.26586608380498894,GBM
+,Blue Mountains,TOPHT,bias,3.0720842222447295,GBM
+,Blue Mountains,TOPHT,rel_bias,-0.051168123623673185,GBM
+,Blue Mountains,BA,rmse,32.5906833565886,GBM
+,Blue Mountains,BA,nrmse,0.4884551899474092,GBM
+,Blue Mountains,BA,mae,25.268595179420103,GBM
+,Blue Mountains,BA,mape,0.37871487145643523,GBM
+,Blue Mountains,BA,bias,-1.8612832445404333,GBM
+,Blue Mountains,BA,rel_bias,0.027896115304195702,GBM
+,Blue Mountains,QMD,rmse,3.7837998138974456,GBM
+,Blue Mountains,QMD,nrmse,0.28320501057956327,GBM
+,Blue Mountains,QMD,mae,3.0151563538205486,GBM
+,Blue Mountains,QMD,mape,0.22567456765193705,GBM
+,Blue Mountains,QMD,bias,-0.39126410768698694,GBM
+,Blue Mountains,QMD,rel_bias,0.029284835669665218,GBM
+,Blue Mountains,GS_TPA,rmse,53.426052985609864,GBM
+,Blue Mountains,GS_TPA,nrmse,0.6993385391769378,GBM
+,Blue Mountains,GS_TPA,mae,34.08900910652093,GBM
+,Blue Mountains,GS_TPA,mape,0.44621970926740256,GBM
+,Blue Mountains,GS_TPA,bias,-7.314867820293237,GBM
+,Blue Mountains,GS_TPA,rel_bias,0.09575045674989552,GBM
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,rmse,9.249926924254417,GBM
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,nrmse,0.6388932006307801,GBM
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,mae,6.6636128932835454,GBM
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,mape,0.46025628137571656,GBM
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,bias,0.3919216146749209,GBM
+,Blue Mountains,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.027070057617371558,GBM
+,Cascades,LIDAR_COVER,rmse,15.194693416943256,GBM
+,Cascades,LIDAR_COVER,nrmse,0.19061011602108352,GBM
+,Cascades,LIDAR_COVER,mae,11.029366597039507,GBM
+,Cascades,LIDAR_COVER,mape,0.1383580957518055,GBM
+,Cascades,LIDAR_COVER,bias,-1.8720414043668312,GBM
+,Cascades,LIDAR_COVER,rel_bias,0.02348385844262845,GBM
+,Cascades,TOPHT,rmse,26.195324170040532,GBM
+,Cascades,TOPHT,nrmse,0.25468357090251026,GBM
+,Cascades,TOPHT,mae,20.24209043692094,GBM
+,Cascades,TOPHT,mape,0.19680336236887278,GBM
+,Cascades,TOPHT,bias,-3.67556925242841,GBM
+,Cascades,TOPHT,rel_bias,0.03573565634200316,GBM
+,Cascades,BA,rmse,90.3654048550044,GBM
+,Cascades,BA,nrmse,0.42605850664508593,GBM
+,Cascades,BA,mae,69.13903865136942,GBM
+,Cascades,BA,mape,0.32597956713573,GBM
+,Cascades,BA,bias,-12.160087496801745,GBM
+,Cascades,BA,rel_bias,0.05733287786265051,GBM
+,Cascades,QMD,rmse,5.833066908582618,GBM
+,Cascades,QMD,nrmse,0.4256431134500946,GBM
+,Cascades,QMD,mae,4.176653935911395,GBM
+,Cascades,QMD,mape,0.3047734601619543,GBM
+,Cascades,QMD,bias,0.016148140256977344,GBM
+,Cascades,QMD,rel_bias,-0.0011783414802417906,GBM
+,Cascades,GS_TPA,rmse,101.12578361887904,GBM
+,Cascades,GS_TPA,nrmse,0.5453455934030725,GBM
+,Cascades,GS_TPA,mae,73.56728123351553,GBM
+,Cascades,GS_TPA,mape,0.3967296094391142,GBM
+,Cascades,GS_TPA,bias,-15.48488125947359,GBM
+,Cascades,GS_TPA,rel_bias,0.08350602049275226,GBM
+,Cascades,ABOVEGROUND_LIVE_CARBON,rmse,33.75221843468121,GBM
+,Cascades,ABOVEGROUND_LIVE_CARBON,nrmse,0.5540599341929482,GBM
+,Cascades,ABOVEGROUND_LIVE_CARBON,mae,23.771062914938287,GBM
+,Cascades,ABOVEGROUND_LIVE_CARBON,mape,0.39021415969547174,GBM
+,Cascades,ABOVEGROUND_LIVE_CARBON,bias,-6.48237896651296,GBM
+,Cascades,ABOVEGROUND_LIVE_CARBON,rel_bias,0.10641156730336399,GBM
+,Coast Range,LIDAR_COVER,rmse,16.08463465697178,GBM
+,Coast Range,LIDAR_COVER,nrmse,0.1965407570378001,GBM
+,Coast Range,LIDAR_COVER,mae,11.84066927337678,GBM
+,Coast Range,LIDAR_COVER,mape,0.14468305637361759,GBM
+,Coast Range,LIDAR_COVER,bias,-1.919325237985803,GBM
+,Coast Range,LIDAR_COVER,rel_bias,0.023452546067745442,GBM
+,Coast Range,TOPHT,rmse,33.29533235107991,GBM
+,Coast Range,TOPHT,nrmse,0.3027158301193709,GBM
+,Coast Range,TOPHT,mae,25.839911161973053,GBM
+,Coast Range,TOPHT,mape,0.23493233451246107,GBM
+,Coast Range,TOPHT,bias,-17.469400354570112,GBM
+,Coast Range,TOPHT,rel_bias,0.15882899063026784,GBM
+,Coast Range,BA,rmse,118.58021420226986,GBM
+,Coast Range,BA,nrmse,0.48817355096057136,GBM
+,Coast Range,BA,mae,86.94977538560065,GBM
+,Coast Range,BA,mape,0.35795668687871407,GBM
+,Coast Range,BA,bias,-46.16187136525548,GBM
+,Coast Range,BA,rel_bias,0.19004017504069007,GBM
+,Coast Range,QMD,rmse,9.692791725731505,GBM
+,Coast Range,QMD,nrmse,0.5935389665361508,GBM
+,Coast Range,QMD,mae,6.616785179147404,GBM
+,Coast Range,QMD,mape,0.4051794310814492,GBM
+,Coast Range,QMD,bias,-5.457501304975781,GBM
+,Coast Range,QMD,rel_bias,0.33419057956499704,GBM
+,Coast Range,GS_TPA,rmse,124.04091317701487,GBM
+,Coast Range,GS_TPA,nrmse,0.726010833980519,GBM
+,Coast Range,GS_TPA,mae,99.57403355208525,GBM
+,Coast Range,GS_TPA,mape,0.5828063119689244,GBM
+,Coast Range,GS_TPA,bias,52.69821910581673,GBM
+,Coast Range,GS_TPA,rel_bias,-0.3084424084149012,GBM
+,Coast Range,ABOVEGROUND_LIVE_CARBON,rmse,47.437688809639724,GBM
+,Coast Range,ABOVEGROUND_LIVE_CARBON,nrmse,0.6454305099586319,GBM
+,Coast Range,ABOVEGROUND_LIVE_CARBON,mae,31.930358452853365,GBM
+,Coast Range,ABOVEGROUND_LIVE_CARBON,mape,0.43443995811193864,GBM
+,Coast Range,ABOVEGROUND_LIVE_CARBON,bias,-18.10185344600361,GBM
+,Coast Range,ABOVEGROUND_LIVE_CARBON,rel_bias,0.24629126742946103,GBM
+,Eastern Cascades,LIDAR_COVER,rmse,14.764898246893125,GBM
+,Eastern Cascades,LIDAR_COVER,nrmse,0.29996747056412093,GBM
+,Eastern Cascades,LIDAR_COVER,mae,11.282903581173072,GBM
+,Eastern Cascades,LIDAR_COVER,mape,0.2292263713077417,GBM
+,Eastern Cascades,LIDAR_COVER,bias,-0.2852521894921142,GBM
+,Eastern Cascades,LIDAR_COVER,rel_bias,0.005795256853384137,GBM
+,Eastern Cascades,TOPHT,rmse,19.79089024695428,GBM
+,Eastern Cascades,TOPHT,nrmse,0.2760781770154437,GBM
+,Eastern Cascades,TOPHT,mae,15.34587611841552,GBM
+,Eastern Cascades,TOPHT,mape,0.21407129495495994,GBM
+,Eastern Cascades,TOPHT,bias,2.115636929637749,GBM
+,Eastern Cascades,TOPHT,rel_bias,-0.029512628258389104,GBM
+,Eastern Cascades,BA,rmse,62.305968850699536,GBM
+,Eastern Cascades,BA,nrmse,0.5553516014500149,GBM
+,Eastern Cascades,BA,mae,44.98885893012072,GBM
+,Eastern Cascades,BA,mape,0.4009990585993566,GBM
+,Eastern Cascades,BA,bias,-2.857607611256869,GBM
+,Eastern Cascades,BA,rel_bias,0.02547070517481306,GBM
+,Eastern Cascades,QMD,rmse,5.396672155512161,GBM
+,Eastern Cascades,QMD,nrmse,0.4406872284499509,GBM
+,Eastern Cascades,QMD,mae,4.033594366087125,GBM
+,Eastern Cascades,QMD,mape,0.3293795640460906,GBM
+,Eastern Cascades,QMD,bias,-0.6751361645053647,GBM
+,Eastern Cascades,QMD,rel_bias,0.05513099120877824,GBM
+,Eastern Cascades,GS_TPA,rmse,84.56822637643074,GBM
+,Eastern Cascades,GS_TPA,nrmse,0.7459381178796216,GBM
+,Eastern Cascades,GS_TPA,mae,63.385653896530954,GBM
+,Eastern Cascades,GS_TPA,mape,0.559096216085772,GBM
+,Eastern Cascades,GS_TPA,bias,15.073192095560247,GBM
+,Eastern Cascades,GS_TPA,rel_bias,-0.1329538175738994,GBM
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,rmse,19.70616515715053,GBM
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,nrmse,0.7165878238963829,GBM
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,mae,12.845636903294293,GBM
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,mape,0.4671140692107016,GBM
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,bias,-1.0862562933530657,GBM
+,Eastern Cascades,ABOVEGROUND_LIVE_CARBON,rel_bias,0.03950022884920239,GBM
+,Klamath Mountains,LIDAR_COVER,rmse,15.020311361585481,GBM
+,Klamath Mountains,LIDAR_COVER,nrmse,0.20763288844805786,GBM
+,Klamath Mountains,LIDAR_COVER,mae,10.388486266426694,GBM
+,Klamath Mountains,LIDAR_COVER,mape,0.1436049731710403,GBM
+,Klamath Mountains,LIDAR_COVER,bias,1.319194944761442,GBM
+,Klamath Mountains,LIDAR_COVER,rel_bias,-0.018235857447497127,GBM
+,Klamath Mountains,TOPHT,rmse,29.695448121852674,GBM
+,Klamath Mountains,TOPHT,nrmse,0.3119134302235638,GBM
+,Klamath Mountains,TOPHT,mae,24.204289767817404,GBM
+,Klamath Mountains,TOPHT,mape,0.25423570025364606,GBM
+,Klamath Mountains,TOPHT,bias,6.113961557299105,GBM
+,Klamath Mountains,TOPHT,rel_bias,-0.06421949632707506,GBM
+,Klamath Mountains,BA,rmse,82.60630761225947,GBM
+,Klamath Mountains,BA,nrmse,0.4161499745631921,GBM
+,Klamath Mountains,BA,mae,64.50772666501133,GBM
+,Klamath Mountains,BA,mape,0.3249738377943164,GBM
+,Klamath Mountains,BA,bias,-13.627826940470493,GBM
+,Klamath Mountains,BA,rel_bias,0.06865359315233117,GBM
+,Klamath Mountains,QMD,rmse,8.355530446059934,GBM
+,Klamath Mountains,QMD,nrmse,0.7438626278998443,GBM
+,Klamath Mountains,QMD,mae,7.0638887717426,GBM
+,Klamath Mountains,QMD,mape,0.6288724454853075,GBM
+,Klamath Mountains,QMD,bias,4.157031642972202,GBM
+,Klamath Mountains,QMD,rel_bias,-0.37008547837465783,GBM
+,Klamath Mountains,GS_TPA,rmse,99.89138092288472,GBM
+,Klamath Mountains,GS_TPA,nrmse,0.6819787318895014,GBM
+,Klamath Mountains,GS_TPA,mae,74.10002702351426,GBM
+,Klamath Mountains,GS_TPA,mape,0.505895924108671,GBM
+,Klamath Mountains,GS_TPA,bias,-15.39215574710961,GBM
+,Klamath Mountains,GS_TPA,rel_bias,0.1050853713351225,GBM
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,rmse,33.54647928872603,GBM
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,nrmse,0.5891490054790786,GBM
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,mae,24.477794775356713,GBM
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,mape,0.4298832173744349,GBM
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,bias,-1.2248320419160574,GBM
+,Klamath Mountains,ABOVEGROUND_LIVE_CARBON,rel_bias,0.021510709757737986,GBM
+,North Cascades,LIDAR_COVER,rmse,16.65207488091991,GBM
+,North Cascades,LIDAR_COVER,nrmse,0.24246696027457776,GBM
+,North Cascades,LIDAR_COVER,mae,12.560904322398912,GBM
+,North Cascades,LIDAR_COVER,mape,0.18289638445245934,GBM
+,North Cascades,LIDAR_COVER,bias,-0.18499210494156923,GBM
+,North Cascades,LIDAR_COVER,rel_bias,0.002693626691012099,GBM
+,North Cascades,TOPHT,rmse,21.506175647152602,GBM
+,North Cascades,TOPHT,nrmse,0.25454325838543906,GBM
+,North Cascades,TOPHT,mae,16.863217038770145,GBM
+,North Cascades,TOPHT,mape,0.19959002857291924,GBM
+,North Cascades,TOPHT,bias,2.632904462536162,GBM
+,North Cascades,TOPHT,rel_bias,-0.031162587524028253,GBM
+,North Cascades,BA,rmse,80.04077558189478,GBM
+,North Cascades,BA,nrmse,0.45942046629652844,GBM
+,North Cascades,BA,mae,59.74929271657885,GBM
+,North Cascades,BA,mape,0.34295079877946144,GBM
+,North Cascades,BA,bias,-10.562358905917003,GBM
+,North Cascades,BA,rel_bias,0.06062614734139745,GBM
+,North Cascades,QMD,rmse,5.240667664271626,GBM
+,North Cascades,QMD,nrmse,0.4378113347593221,GBM
+,North Cascades,QMD,mae,3.893884301144946,GBM
+,North Cascades,QMD,mape,0.32529952145316554,GBM
+,North Cascades,QMD,bias,0.48589215615991044,GBM
+,North Cascades,QMD,rel_bias,-0.04059198313370277,GBM
+,North Cascades,GS_TPA,rmse,109.38475861049288,GBM
+,North Cascades,GS_TPA,nrmse,0.5943005398411408,GBM
+,North Cascades,GS_TPA,mae,82.4011215911605,GBM
+,North Cascades,GS_TPA,mape,0.4476951969105919,GBM
+,North Cascades,GS_TPA,bias,-11.023449256585616,GBM
+,North Cascades,GS_TPA,rel_bias,0.05989172465451524,GBM
+,North Cascades,ABOVEGROUND_LIVE_CARBON,rmse,23.625898114863773,GBM
+,North Cascades,ABOVEGROUND_LIVE_CARBON,nrmse,0.5448534683346227,GBM
+,North Cascades,ABOVEGROUND_LIVE_CARBON,mae,16.838578966184244,GBM
+,North Cascades,ABOVEGROUND_LIVE_CARBON,mape,0.3883263233823867,GBM
+,North Cascades,ABOVEGROUND_LIVE_CARBON,bias,-2.7464304052814295,GBM
+,North Cascades,ABOVEGROUND_LIVE_CARBON,rel_bias,0.06333736497897695,GBM
+,Northern Rockies,LIDAR_COVER,rmse,17.509304605448712,GBM
+,Northern Rockies,LIDAR_COVER,nrmse,0.3414822131449612,GBM
+,Northern Rockies,LIDAR_COVER,mae,14.117729744655687,GBM
+,Northern Rockies,LIDAR_COVER,mape,0.27533666849837324,GBM
+,Northern Rockies,LIDAR_COVER,bias,2.969453220717863,GBM
+,Northern Rockies,LIDAR_COVER,rel_bias,-0.057912948600232696,GBM
+,Northern Rockies,TOPHT,rmse,21.51391514983482,GBM
+,Northern Rockies,TOPHT,nrmse,0.3006581232981553,GBM
+,Northern Rockies,TOPHT,mae,16.954995305791766,GBM
+,Northern Rockies,TOPHT,mape,0.23694697286223718,GBM
+,Northern Rockies,TOPHT,bias,-1.8899319454896713,GBM
+,Northern Rockies,TOPHT,rel_bias,0.026411900759798188,GBM
+,Northern Rockies,BA,rmse,49.38328952765284,GBM
+,Northern Rockies,BA,nrmse,0.5553933129555239,GBM
+,Northern Rockies,BA,mae,37.155343728628466,GBM
+,Northern Rockies,BA,mape,0.41787069360555457,GBM
+,Northern Rockies,BA,bias,12.160279720534932,GBM
+,Northern Rockies,BA,rel_bias,-0.13676160711553897,GBM
+,Northern Rockies,QMD,rmse,6.917047203269978,GBM
+,Northern Rockies,QMD,nrmse,0.5962600464269603,GBM
+,Northern Rockies,QMD,mae,4.730747977543387,GBM
+,Northern Rockies,QMD,mape,0.4077977098942998,GBM
+,Northern Rockies,QMD,bias,-0.4404730555036521,GBM
+,Northern Rockies,QMD,rel_bias,0.03796945095304156,GBM
+,Northern Rockies,GS_TPA,rmse,88.01177494245128,GBM
+,Northern Rockies,GS_TPA,nrmse,0.8076552246005393,GBM
+,Northern Rockies,GS_TPA,mae,70.72619850133378,GBM
+,Northern Rockies,GS_TPA,mape,0.6490311526280201,GBM
+,Northern Rockies,GS_TPA,bias,19.323522366267046,GBM
+,Northern Rockies,GS_TPA,rel_bias,-0.1773256340643717,GBM
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,rmse,12.371917854944053,GBM
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,nrmse,0.6435562520559134,GBM
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,mae,9.39329728443137,GBM
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,mape,0.48861585290916704,GBM
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,bias,2.8603621453272887,GBM
+,Northern Rockies,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.1487888913709382,GBM
+,Puget Lowland,LIDAR_COVER,rmse,19.84070887111293,GBM
+,Puget Lowland,LIDAR_COVER,nrmse,0.2534360289929437,GBM
+,Puget Lowland,LIDAR_COVER,mae,13.368222486882225,GBM
+,Puget Lowland,LIDAR_COVER,mape,0.17075948464232274,GBM
+,Puget Lowland,LIDAR_COVER,bias,-1.4993274638680503,GBM
+,Puget Lowland,LIDAR_COVER,rel_bias,0.019151714844020357,GBM
+,Puget Lowland,TOPHT,rmse,27.75050521858152,GBM
+,Puget Lowland,TOPHT,nrmse,0.28046552158027366,GBM
+,Puget Lowland,TOPHT,mae,21.048608047148193,GBM
+,Puget Lowland,TOPHT,mape,0.21273158048774143,GBM
+,Puget Lowland,TOPHT,bias,3.9392044772343433,GBM
+,Puget Lowland,TOPHT,rel_bias,-0.03981228556441223,GBM
+,Puget Lowland,BA,rmse,82.96137601277968,GBM
+,Puget Lowland,BA,nrmse,0.4375526738221113,GBM
+,Puget Lowland,BA,mae,64.71768170884495,GBM
+,Puget Lowland,BA,mape,0.34133226853555726,GBM
+,Puget Lowland,BA,bias,10.951542163113965,GBM
+,Puget Lowland,BA,rel_bias,-0.057760331207717015,GBM
+,Puget Lowland,QMD,rmse,5.5720731836312885,GBM
+,Puget Lowland,QMD,nrmse,0.4114938480712316,GBM
+,Puget Lowland,QMD,mae,3.978835945468726,GBM
+,Puget Lowland,QMD,mape,0.2938343521500674,GBM
+,Puget Lowland,QMD,bias,1.3952337043412877,GBM
+,Puget Lowland,QMD,rel_bias,-0.10303706843705134,GBM
+,Puget Lowland,GS_TPA,rmse,105.0230379946124,GBM
+,Puget Lowland,GS_TPA,nrmse,0.6226955337311733,GBM
+,Puget Lowland,GS_TPA,mae,75.98046307489562,GBM
+,Puget Lowland,GS_TPA,mape,0.4504982517263587,GBM
+,Puget Lowland,GS_TPA,bias,-15.874116972801373,GBM
+,Puget Lowland,GS_TPA,rel_bias,0.09411974676829199,GBM
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,rmse,30.169938719855224,GBM
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,nrmse,0.5797487080527312,GBM
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,mae,23.311221095536638,GBM
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,mape,0.44795087052579174,GBM
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,bias,3.9342186666123764,GBM
+,Puget Lowland,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.07560035869958204,GBM
+,Willamette Valley,LIDAR_COVER,rmse,11.36577640081356,GBM
+,Willamette Valley,LIDAR_COVER,nrmse,0.1370857730546042,GBM
+,Willamette Valley,LIDAR_COVER,mae,7.989985710531885,GBM
+,Willamette Valley,LIDAR_COVER,mape,0.09636942776255059,GBM
+,Willamette Valley,LIDAR_COVER,bias,0.5142652933404563,GBM
+,Willamette Valley,LIDAR_COVER,rel_bias,-0.0062026959537654636,GBM
+,Willamette Valley,TOPHT,rmse,26.813838013161295,GBM
+,Willamette Valley,TOPHT,nrmse,0.23915805153396746,GBM
+,Willamette Valley,TOPHT,mae,22.268486739649614,GBM
+,Willamette Valley,TOPHT,mape,0.19861714300841732,GBM
+,Willamette Valley,TOPHT,bias,8.631814689179487,GBM
+,Willamette Valley,TOPHT,rel_bias,-0.07698890331377296,GBM
+,Willamette Valley,BA,rmse,118.56717701330786,GBM
+,Willamette Valley,BA,nrmse,0.5057818953192396,GBM
+,Willamette Valley,BA,mae,88.00162730600158,GBM
+,Willamette Valley,BA,mape,0.37539588080950187,GBM
+,Willamette Valley,BA,bias,5.224139828300339,GBM
+,Willamette Valley,BA,rel_bias,-0.022285048951396606,GBM
+,Willamette Valley,QMD,rmse,8.698288533000923,GBM
+,Willamette Valley,QMD,nrmse,0.4623033247822083,GBM
+,Willamette Valley,QMD,mae,4.729042876121956,GBM
+,Willamette Valley,QMD,mape,0.2513428056995641,GBM
+,Willamette Valley,QMD,bias,-1.396754751468679,GBM
+,Willamette Valley,QMD,rel_bias,0.07423579512906102,GBM
+,Willamette Valley,GS_TPA,rmse,83.59080265294867,GBM
+,Willamette Valley,GS_TPA,nrmse,0.5742054489656245,GBM
+,Willamette Valley,GS_TPA,mae,61.031196293797,GBM
+,Willamette Valley,GS_TPA,mape,0.41923805438603085,GBM
+,Willamette Valley,GS_TPA,bias,-6.178109716616882,GBM
+,Willamette Valley,GS_TPA,rel_bias,0.04243893049235777,GBM
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,rmse,42.825796767627644,GBM
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,nrmse,0.5970465352219697,GBM
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,mae,32.12146520736294,GBM
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,mape,0.44781442391763976,GBM
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,bias,3.4170260652496904,GBM
+,Willamette Valley,ABOVEGROUND_LIVE_CARBON,rel_bias,-0.047637726020374555,GBM
